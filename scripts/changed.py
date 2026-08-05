@@ -14,8 +14,8 @@ from datetime import datetime, timezone
 # Even when nothing changed, re-publish at least this often so the file's
 # timestamp doubles as a "this feed is still alive" signal. Without it, a
 # quiet schedule is indistinguishable from a dead job. At 45 min this costs
-# ~1.3 site builds an hour, far under the 10/hour ceiling.
-LIVENESS_MAX_AGE_MIN = 45
+# ~3 site builds an hour, comfortably under the 10/hour ceiling.
+LIVENESS_MAX_AGE_MIN = 20
 
 def payload(path):
     with open(path, encoding="utf-8") as fh:

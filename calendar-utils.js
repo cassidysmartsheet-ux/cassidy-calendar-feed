@@ -138,9 +138,11 @@ async function loadEvents() {
 function updateFreshnessBadge(feedName, ageMin) {
   const el = document.getElementById('feed-freshness');
   if (!el) return;
-  if (!feedName) { el.textContent = 'feed unavailable'; return; }
-  const label = ageMin === 0 ? 'just now' : ageMin + ' min ago';
-  el.textContent = `${label} · ${feedName} feed`;
+  if (!feedName) { el.textContent = 'unavailable'; return; }
+  // The fast feed republishes on change, plus a liveness beat every 20 min, so
+  // this reads as "confirmed current as of", not "we have not looked since".
+  const label = ageMin <= 1 ? 'just now' : ageMin + ' min ago';
+  el.textContent = feedName === 'fast' ? label : label + ' · backup feed';
 }
 
 // Parse 'YYYY-MM-DD' as a local-naive date so calendar-cell positioning
