@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cassidy Paving — Crackfill Crew Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="calendar-styles.css">
+<style>:root { --crew-color: #E2B33D; }</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-logo">
+    <img src="logo.png" alt="Cassidy Paving">
+  </div>
+  <div class="header-title">
+    <div class="crew-name"><span class="accent">Crackfill</span> Crew</div>
+    <div class="date-range" id="date-range"></div>
+  </div>
+  <div class="header-right">
+    <div class="label">Today</div>
+    <div class="date" id="today-date"></div>
+  </div>
+</header>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-color outline-amber"></div> Past — Not Complete</div>
+</div>
+
+<div class="calendar-container">
+  <div class="weekday-header">
+    <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+  </div>
+  <div class="calendar-grid" id="grid"></div>
+</div>
+
+<div class="status-bar">
+  Last updated: <span class="accent" id="update-time">--:--</span>&nbsp;&nbsp;·&nbsp;&nbsp;Schedule data: <span class="accent" id="feed-freshness">checking…</span>
+</div>
+
+<script src="calendar-utils.js"></script>
+<script>
+const CREW_PHASE = 'Crackfill';
+
+async function renderCalendar() {
+  const today = new Date();
+  const todayStart = new Date(today); todayStart.setHours(0,0,0,0);
+  document.getElementById('today-date').textContent =
+    today.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+
+  const allEvents = await loadEvents();
+  const events = filterEventsByPhase(allEvents, CREW_PHASE);
+
+  const calendarDates = getCalendarDates(today);
+  document.getElementById('date-range').textContent =
+    formatDateRange(calendarDates[0], calendarDates[calendarDates.length - 1]);
+
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+
+  calendarDates.forEach(date => {
+    const cell = document.createElement('div');
+    cell.className = 'day-cell';
+    if (date.getMonth() === today.getMonth() && date.getFullYear() === today.getFullYear()) {
+      cell.classList.add('current-month');
+    }
+    if (date.toDateString() === today.toDateString()) {
+      cell.classList.add('current-day');
+    }
+
+    const dayNum = document.createElement('div');
+    dayNum.className = 'day-number';
+    dayNum.textContent = date.getDate();
+    cell.appendChild(dayNum);
+
+    const eventsEl = document.createElement('div');
+    eventsEl.className = 'events';
+
+    const dayEvents = getEventsForDate(events, date);
+    dayEvents.forEach(event => {
+      const eventEl = document.createElement('div');
+      eventEl.className = 'event';
+      if (event.status === 'Complete') {
+        eventEl.classList.add('complete');
+      } else {
+        const eventEnd = new Date(event.endDate); eventEnd.setHours(23,59,59,999);
+        if (eventEnd < todayStart) eventEl.classList.add('past-incomplete');
+      }
+
+      const job = document.createElement('span');
+      job.className = 'job';
+      job.textContent = event.jobNumber;
+      eventEl.appendChild(job);
+
+      const sep = document.createElement('span');
+      sep.className = 'sep';
+      sep.textContent = ' · ';
+      eventEl.appendChild(sep);
+
+      const meta = document.createElement('span');
+      meta.textContent = `${event.client} · ${event.city}`;
+      eventEl.appendChild(meta);
+
+      eventEl.title = `${event.crew} — ${event.status}`;
+      eventsEl.appendChild(eventEl);
+    });
+
+    cell.appendChild(eventsEl);
+    grid.appendChild(cell);
+  });
+
+  applyAdaptiveDensity();
+
+  document.getElementById('update-time').textContent =
+    new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+}
+
+renderCalendar();
+setInterval(renderCalendar, 1 * 60 * 1000);
+bindAdaptiveDensityResize();
+</script>
+</body>
+</html>

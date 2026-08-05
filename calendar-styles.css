@@ -1,0 +1,394 @@
+/* ============================================================
+   Cassidy Paving — TV Calendar shared styles
+   Optimized for 65" 4K signage displays (TCL Q7K via AbleSign / Yodeck).
+   Sizing is in viewport units so it auto-scales between 1080p
+   (when the player downscales) and full 4K.
+   Brand palette pulled from the Cassidy Paving logo:
+     --brand-red     #CC0000
+     --brand-black   #1A1A1A
+   Phase colors live in calendar-utils.js (PHASE_COLORS).
+   ============================================================ */
+
+:root {
+  --brand-red:        #CC0000;
+  --brand-red-dark:   #990000;
+  --brand-black:      #1A1A1A;
+  --brand-ink:        #0F0F0F;
+  --grid-line:        #D5D5D5;
+  --cell-bg:          #FAFAFA;
+  --cell-bg-today:    #FFF1F1;
+  --muted:            #555555;
+  --muted-soft:       #888888;
+  --done-green:       #166534;
+  --past-amber:       #D97706;
+
+  /* Per-crew color override — single-crew calendars set this. */
+  --crew-color:       var(--brand-red);
+}
+
+/* ---------- Reset / base ---------- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100%; height: 100%; overflow: hidden; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #FFFFFF;
+  color: var(--brand-ink);
+  display: flex;
+  flex-direction: column;
+  /* TV overscan-safe margin (tighter top/bottom to maximize grid space) */
+  padding: 1vh 1.5vw;
+}
+
+/* ---------- HEADER (compressed for 6-week calendar) ---------- */
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1.8vw;
+  margin-bottom: 0.5vh;
+  padding-bottom: 0.6vh;
+  border-bottom: 0.25vh solid var(--brand-black);
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+}
+.header-logo img {
+  height: 100%;
+  width: auto;
+  display: block;
+}
+
+.header-title {
+  text-align: center;
+}
+.header-title .crew-name {
+  font-family: 'Oswald', 'Impact', 'Arial Narrow', sans-serif;
+  font-weight: 800;
+  font-size: 3.6vh;
+  letter-spacing: 0.2vh;
+  line-height: 1;
+  color: var(--brand-black);
+  text-transform: uppercase;
+  display: inline-block;
+}
+.header-title .crew-name .accent {
+  color: var(--brand-red);
+}
+.header-title .date-range {
+  margin-top: 0.3vh;
+  font-size: 1.2vh;
+  font-weight: 700;
+  color: var(--muted);
+  letter-spacing: 0.12vh;
+  text-transform: uppercase;
+}
+
+.header-right {
+  text-align: right;
+  min-width: 12vw;
+}
+.header-right .label {
+  font-family: 'Oswald', 'Impact', sans-serif;
+  font-size: 1.1vh;
+  font-weight: 700;
+  letter-spacing: 0.25vh;
+  color: var(--brand-red);
+  text-transform: uppercase;
+}
+.header-right .date {
+  font-family: 'Oswald', 'Impact', sans-serif;
+  font-size: 2.4vh;
+  font-weight: 700;
+  color: var(--brand-black);
+  line-height: 1.05;
+  letter-spacing: 0.05vh;
+}
+
+/* ---------- LEGEND (operations calendar only) ---------- */
+.legend {
+  display: flex;
+  gap: 1.6vw;
+  padding: 0.4vh 0 0.5vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 0.1vh solid var(--grid-line);
+  margin-bottom: 0.6vh;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4vw;
+  font-size: 1.15vh;
+  font-weight: 700;
+  color: var(--brand-black);
+  text-transform: uppercase;
+  letter-spacing: 0.08vh;
+}
+.legend-color {
+  width: 1.3vh;
+  height: 1.3vh;
+  border-radius: 0.25vh;
+}
+
+/* ---------- CALENDAR GRID ---------- */
+.calendar-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.weekday-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5vw;
+  margin-bottom: 0.5vh;
+}
+.weekday-header div {
+  text-align: center;
+  font-family: 'Oswald', 'Impact', sans-serif;
+  font-size: 1.3vh;
+  font-weight: 700;
+  color: var(--brand-black);
+  text-transform: uppercase;
+  letter-spacing: 0.25vh;
+  padding: 0.3vh 0;
+  border-bottom: 0.25vh solid var(--brand-black);
+}
+.calendar-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 0.5vw;
+  min-height: 0;
+}
+
+/* ---------- DAY CELL ---------- */
+.day-cell {
+  background: var(--cell-bg);
+  border: 0.15vh solid var(--grid-line);
+  border-radius: 0.6vh;
+  padding: 0.5vh 0.6vw 0.4vh;
+  /* Horizontal: tiny day-number column on the left, events column on the right.
+     This gives events the FULL cell height instead of (cell - day number). */
+  display: flex;
+  flex-direction: row;
+  gap: 0.5vw;
+  overflow: hidden;
+  min-height: 0;
+}
+.day-cell:not(.current-month) { opacity: 0.55; }
+.day-cell.current-day {
+  background: var(--cell-bg-today);
+  border: 0.3vh solid var(--brand-red);
+  padding: 0.35vh 0.45vw 0.25vh;
+}
+.day-number {
+  font-family: 'Oswald', 'Impact', sans-serif;
+  font-size: 1.5vh;
+  font-weight: 700;
+  color: var(--muted);
+  line-height: 1;
+  /* Narrow left column — width grows slightly with viewport */
+  flex: 0 0 auto;
+  width: 1.8vw;
+  min-width: 1.8vw;
+  text-align: center;
+  padding-top: 0.2vh;
+  align-self: flex-start;
+}
+.day-cell.current-month .day-number { color: var(--brand-black); }
+.day-cell.current-day .day-number {
+  color: var(--brand-red);
+  font-weight: 800;
+}
+
+/* ---------- EVENTS ---------- */
+.events {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25vh;
+  overflow: hidden;
+  min-height: 0;
+}
+.event {
+  position: relative;
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--brand-ink);
+  border: 0.12vh solid rgba(0, 0, 0, 0.08);
+  border-left: 0.45vh solid var(--crew-color);
+  padding: 0.35vh 0.45vw;
+  border-radius: 0.35vh;
+  font-size: 1.3vh;
+  font-weight: 600;
+  line-height: 1.18;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.event .job { font-weight: 800; }
+.event .sep { opacity: 0.55; padding: 0 0.2vw; }
+
+/* COMPLETE state — content stays readable; ribbon stamp added on top */
+.event.complete {
+  opacity: 0.78;
+  background: rgba(22, 101, 52, 0.08);
+}
+.event.complete::after {
+  content: 'COMPLETE';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  font-family: 'Oswald', 'Impact', sans-serif;
+  font-weight: 800;
+  font-size: 1.05vh;
+  letter-spacing: 0.18vh;
+  color: var(--done-green);
+  border: 0.22vh solid var(--done-green);
+  padding: 0.05vh 0.35vw;
+  border-radius: 0.22vh;
+  text-transform: uppercase;
+  pointer-events: none;
+  white-space: nowrap;
+  /* Translucent background so the job # / client / city behind stays readable */
+  background: rgba(255, 255, 255, 0.35);
+  text-shadow: 0 0 0.15vh rgba(255,255,255,0.75);
+  box-shadow: 0 0.1vh 0.2vh rgba(0,0,0,0.04);
+}
+
+/* PAST-INCOMPLETE — past end date, status != Complete. Amber inset outline. */
+.event.past-incomplete {
+  box-shadow: inset 0 0 0 0.3vh var(--past-amber);
+  background: rgba(217, 119, 6, 0.08);
+}
+.event.past-incomplete.complete { /* shouldn't happen but guard */
+  box-shadow: none;
+  background: rgba(22, 101, 52, 0.08);
+}
+
+/* Crew badge (operations calendar) */
+.crew-badge {
+  display: inline-block;
+  background: var(--brand-black);
+  color: #FFFFFF;
+  font-family: 'Oswald', 'Impact', sans-serif;
+  font-weight: 800;
+  font-size: 1.0vh;
+  padding: 0.05vh 0.35vw;
+  border-radius: 0.25vh;
+  margin-right: 0.35vw;
+  vertical-align: 1px;
+  letter-spacing: 0.08vh;
+}
+
+
+/* Legend swatch variant for past-incomplete (amber outline only) */
+.legend-color.outline-amber {
+  background: transparent;
+  border: 0.3vh solid var(--past-amber);
+  box-sizing: border-box;
+}
+
+/* Phase-specific event colors (operations calendar uses these per-event) */
+.event.milling        { background: rgba(59, 91, 165, 0.28); border-left-color: #3B5BA5; }
+.crew-badge.milling        { background: #3B5BA5; }
+.event.paving         { background: rgba(193, 53, 72, 0.28); border-left-color: #C13548; }
+.crew-badge.paving         { background: #C13548; }
+.event.crackfill      { background: rgba(226, 179, 61, 0.28); border-left-color: #E2B33D; }
+.crew-badge.crackfill      { background: #E2B33D; }
+.event.hand           { background: rgba(142, 131, 189, 0.28); border-left-color: #8E83BD; }
+.crew-badge.hand           { background: #8E83BD; }
+.event.reclaimgrading { background: rgba(197, 111, 135, 0.28); border-left-color: #C56F87; }
+.crew-badge.reclaimgrading { background: #C56F87; }
+.event.pulverizing    { background: rgba(232, 158, 126, 0.28); border-left-color: #E89E7E; }
+.crew-badge.pulverizing    { background: #E89E7E; }
+.event.subc           { background: rgba(168, 177, 67, 0.28); border-left-color: #A8B143; }
+.crew-badge.subc           { background: #A8B143; }
+
+/* Phase event Complete tint overrides — keep some phase color but cooler */
+.event.complete.milling, .event.complete.paving, .event.complete.crackfill,
+.event.complete.hand, .event.complete.reclaimgrading,
+.event.complete.pulverizing, .event.complete.subc {
+  background: rgba(22, 101, 52, 0.10);
+}
+
+/* ---------- ADAPTIVE DENSITY ----------
+   Applied by applyAdaptiveDensity() in calendar-utils.js when a cell would
+   overflow. Each step shrinks event font/padding/gap and progressively
+   removes wrapping so EVERY event stays visible — long text gets ellipsised
+   rather than the row being clipped entirely.
+   Floors are kept generous for TV viewing distance. */
+.day-cell.density-2 .events { gap: 0.3vh; }
+.day-cell.density-2 .event {
+  font-size: 1.15vh;
+  padding: 0.3vh 0.4vw;
+  line-height: 1.15;
+}
+.day-cell.density-2 .crew-badge { font-size: 0.92vh; padding: 0.05vh 0.3vw; margin-right: 0.3vw; }
+.day-cell.density-2 .event.complete::after { font-size: 0.95vh; padding: 0.05vh 0.3vw; letter-spacing: 0.15vh; }
+
+.day-cell.density-3 .events { gap: 0.25vh; }
+.day-cell.density-3 .event {
+  font-size: 1.05vh;
+  padding: 0.22vh 0.35vw;
+  line-height: 1.12;
+  border-left-width: 0.32vh;
+  /* Single-line from here on so multi-event days never clip a row */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.day-cell.density-3 .crew-badge { font-size: 0.85vh; padding: 0 0.25vw; margin-right: 0.25vw; }
+.day-cell.density-3 .event.complete::after { font-size: 0.85vh; padding: 0.02vh 0.25vw; letter-spacing: 0.12vh; border-width: 0.18vh; }
+
+.day-cell.density-4 .events { gap: 0.2vh; }
+.day-cell.density-4 .event {
+  font-size: 0.95vh;
+  padding: 0.15vh 0.28vw;
+  line-height: 1.1;
+  border-left-width: 0.28vh;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.day-cell.density-4 .crew-badge { font-size: 0.78vh; padding: 0 0.22vw; margin-right: 0.22vw; }
+.day-cell.density-4 .event.complete::after { font-size: 0.78vh; padding: 0.02vh 0.22vw; letter-spacing: 0.1vh; border-width: 0.16vh; }
+.day-cell.density-4 .event.past-incomplete { box-shadow: inset 0 0 0 0.2vh var(--past-amber); }
+
+.day-cell.density-max .events { gap: 0.15vh; }
+.day-cell.density-max .event {
+  font-size: 0.85vh;
+  padding: 0.1vh 0.22vw;
+  line-height: 1.08;
+  border-left-width: 0.25vh;
+  border-radius: 0.25vh;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.day-cell.density-max .crew-badge {
+  font-size: 0.7vh;
+  padding: 0 0.18vw;
+  margin-right: 0.18vw;
+  letter-spacing: 0.05vh;
+}
+.day-cell.density-max .event.complete::after { font-size: 0.7vh; padding: 0 0.18vw; letter-spacing: 0.08vh; border-width: 0.14vh; }
+.day-cell.density-max .event.past-incomplete { box-shadow: inset 0 0 0 0.18vh var(--past-amber); }
+
+
+/* ---------- STATUS BAR ---------- */
+.status-bar {
+  font-size: 1vh;
+  color: var(--muted-soft);
+  text-align: center;
+  margin-top: 0.4vh;
+  padding-top: 0.4vh;
+  border-top: 0.1vh solid var(--grid-line);
+  letter-spacing: 0.3px;
+}
+.status-bar .accent { color: var(--brand-red); font-weight: 700; }

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cassidy Paving — TV Calendars (5-minute feed)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --brand-red: #CC0000;
+  --brand-black: #1A1A1A;
+  --grid-line: #E5E5E5;
+  --muted: #6B6B6B;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #FFFFFF;
+  color: var(--brand-black);
+  min-height: 100vh;
+  padding: 48px 32px;
+}
+.container { max-width: 1200px; margin: 0 auto; }
+.header {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 40px;
+  padding-bottom: 22px;
+  border-bottom: 3px solid var(--brand-black);
+  position: relative;
+}
+.header::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: -3px;
+  width: 22%; height: 3px;
+  background: var(--brand-red);
+}
+.header img { height: 96px; width: auto; }
+.title-block h1 {
+  font-family: 'Oswald', 'Impact', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.title-block h1 .accent { color: var(--brand-red); }
+.title-block .subtitle {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+}
+.card {
+  background: #FAFAFA;
+  border: 1px solid var(--grid-line);
+  border-left: 5px solid var(--card-color, var(--brand-red));
+  border-radius: 6px;
+  padding: 22px 22px 20px;
+  text-decoration: none;
+  color: var(--brand-black);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+.card:hover {
+  background: #F2F2F2;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+.card .swatch {
+  width: 36px; height: 36px;
+  border-radius: 5px;
+  background: var(--card-color, var(--brand-red));
+  margin-bottom: 6px;
+}
+.card h2 {
+  font-family: 'Oswald', 'Impact', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.card p {
+  font-size: 0.82rem;
+  color: var(--muted);
+  font-weight: 500;
+}
+.card.featured {
+  background: var(--brand-black);
+  color: #FFFFFF;
+  border-left-color: var(--brand-red);
+}
+.card.featured h2 { color: #FFFFFF; }
+.card.featured p  { color: #BBBBBB; }
+.card.featured .swatch {
+  background: linear-gradient(135deg, #3B5BA5, #C13548, #E2B33D, #8E83BD, #C56F87, #E89E7E);
+}
+.card.legacy { opacity: 0.55; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <img src="logo.png" alt="Cassidy Paving">
+    <div class="title-block">
+      <h1>TV <span class="accent">Calendars</span></h1>
+      <p class="subtitle">Operations Schedule — Live Crew Boards · refreshed every 5 minutes</p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <a href="operations.html" class="card featured">
+      <div class="swatch"></div>
+      <h2>All Operations</h2>
+      <p>Every crew, one combined view</p>
+    </a>
+
+    <a href="milling.html" class="card" style="--card-color:#3B5BA5">
+      <div class="swatch"></div>
+      <h2>Milling</h2>
+      <p>Milling crew schedule</p>
+    </a>
+
+    <a href="paving.html" class="card" style="--card-color:#C13548">
+      <div class="swatch"></div>
+      <h2>Paving</h2>
+      <p>Paving crew schedule</p>
+    </a>
+
+    <a href="crackfill.html" class="card" style="--card-color:#E2B33D">
+      <div class="swatch"></div>
+      <h2>Crackfill</h2>
+      <p>Crackfill crew schedule</p>
+    </a>
+
+    <a href="hand.html" class="card" style="--card-color:#8E83BD">
+      <div class="swatch"></div>
+      <h2>Hand</h2>
+      <p>Hand crew schedule</p>
+    </a>
+
+    <a href="reclaim.html" class="card" style="--card-color:#C56F87">
+      <div class="swatch"></div>
+      <h2>Reclaim &amp; Grading</h2>
+      <p>Reclaim &amp; grading schedule</p>
+    </a>
+
+    <a href="pulverizing.html" class="card" style="--card-color:#E89E7E">
+      <div class="swatch"></div>
+      <h2>Pulverizing</h2>
+      <p>Pulverizing crew schedule</p>
+    </a>
+
+    <a href="subc.html" class="card legacy" style="--card-color:#115E59">
+      <div class="swatch"></div>
+      <h2>SubC <small style="font-weight:500;letter-spacing:0.5px">(legacy)</small></h2>
+      <p>Subcontractor — no dedicated TV</p>
+    </a>
+  </div>
+</div>
+</body>
+</html>

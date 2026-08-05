@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cassidy Paving — Subcontractor Crew Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="calendar-styles.css">
+<style>:root { --crew-color: #A8B143; }</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-logo">
+    <img src="logo.png" alt="Cassidy Paving">
+  </div>
+  <div class="header-title">
+    <div class="crew-name"><span class="accent">Subcontractor</span> Crew</div>
+    <div class="date-range" id="date-range"></div>
+  </div>
+  <div class="header-right">
+    <div class="label">Today</div>
+    <div class="date" id="today-date"></div>
+  </div>
+</header>
+
+<div class="legend">
+  <div class="legend-item"><div class="legend-color outline-amber"></div> Past — Not Complete</div>
+</div>
+
+<div class="calendar-container">
+  <div class="weekday-header">
+    <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+  </div>
+  <div class="calendar-grid" id="grid"></div>
+</div>
+
+<div class="status-bar">
+  Last updated: <span class="accent" id="update-time">--:--</span>
+</div>
+
+<script src="calendar-utils.js"></script>
+<script>
+// ============ SUBCONTRACTOR COLOR PALETTE ============
+// Each subcontractor gets its own border + background color across the whole
+// calendar so a sub's jobs read as a cohesive group at a glance.
+// Fallback to the generic Subcontractor swatch for anything not in the map.
+const SUB_COLORS = {
+  'Fructify LLC':                            '#2E5C8A',
+  'Cassidy Landscaping':                     '#4A8B3A',
+  'H & N Pavement Marking, INC':             '#E67E22',
+  'Matt & Bro hardscape':                    '#8B4513',
+  'S and M Farms Inc':                       '#C9A227',
+  'Colonial Excavation & Utilities LLC':     '#5D6D7E',
+  'City Sealcoating':                        '#1F1F1F',
+  'CMB Pavement Services Inc':               '#8E44AD',
+  'United Concrete Services':                '#95A5A6'
+};
+const SUB_COLOR_FALLBACK = '#A8B143';
+
+function hexToRgba(hex, alpha) {
+  const h = hex.replace('#','');
+  const r = parseInt(h.substring(0,2),16);
+  const g = parseInt(h.substring(2,4),16);
+  const b = parseInt(h.substring(4,6),16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
+function colorForSub(name) {
+  return SUB_COLORS[name] || SUB_COLOR_FALLBACK;
+}
+
+// ============ SILOED DATA FETCH ============
+// Reads data-subcontractor.json (refreshed every 5 min by
+// .github/workflows/refresh-subcontractor-data.yml from the Subcontractor
+// Schedule sheet). Does NOT use loadEvents() from calendar-utils.js — that
+// function reads data.json, which is the internal-crew pipeline.
+async function loadSubEvents() {
+  const cb = Math.floor(Date.now() / 60000);
+  try {
+    const resp = await fetch(`https://cassidysmartsheet-ux.github.io/cassidy-tv-calendars/data-subcontractor.json?cb=${cb}`, { cache: 'no-store' });
+    if (!resp.ok) throw new Error('data-subcontractor.json HTTP ' + resp.status);
+    const payload = await resp.json();
+    const events = (payload.events || []).map(e => ({
+      jobNumber:   e.jobNumber,
+      client:      e.client || '',
+      clientFirst: e.clientFirst || '',
+      city:        e.city || '',
+      crew:        e.crew || '',
+      scope:       e.scope || '',
+      phase:       e.phase || 'Subcontractor',
+      startDate:   parseISODate(e.startDate),
+      endDate:     parseISODate(e.endDate) || parseISODate(e.startDate),
+      status:      e.status || ''
+    })).filter(e => e.startDate);
+    console.log(`[sub-calendar] Loaded ${events.length} sub events from data-subcontractor.json (generated ${payload.generatedAt})`);
+    return events;
+  } catch (err) {
+    console.warn('[sub-calendar] data-subcontractor.json load failed:', err);
+    return [];
+  }
+}
+
+// ============ RENDER ============
+async function renderCalendar() {
+  const today = new Date();
+  const todayStart = new Date(today); todayStart.setHours(0,0,0,0);
+  document.getElementById('today-date').textContent =
+    today.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+
+  const events = await loadSubEvents();
+
+  const calendarDates = getCalendarDates(today);
+  document.getElementById('date-range').textContent =
+    formatDateRange(calendarDates[0], calendarDates[calendarDates.length - 1]);
+
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+
+  calendarDates.forEach(date => {
+    const cell = document.createElement('div');
+    cell.className = 'day-cell';
+    if (date.getMonth() === today.getMonth() && date.getFullYear() === today.getFullYear()) {
+      cell.classList.add('current-month');
+    }
+    if (date.toDateString() === today.toDateString()) {
+      cell.classList.add('current-day');
+    }
+
+    const dayNum = document.createElement('div');
+    dayNum.className = 'day-number';
+    dayNum.textContent = date.getDate();
+    cell.appendChild(dayNum);
+
+    const eventsEl = document.createElement('div');
+    eventsEl.className = 'events';
+
+    const dayEvents = getEventsForDate(events, date);
+    dayEvents.forEach(event => {
+      const eventEl = document.createElement('div');
+      eventEl.className = 'event';
+      const isComplete = event.status === 'Complete';
+      const eventEnd = new Date(event.endDate); eventEnd.setHours(23,59,59,999);
+      const isPastIncomplete = !isComplete && eventEnd < todayStart;
+
+      if (isComplete) eventEl.classList.add('complete');
+      if (isPastIncomplete) eventEl.classList.add('past-incomplete');
+
+      // Per-subcontractor color: only apply for normal (future/active) events.
+      // For .complete or .past-incomplete, the state classes in calendar-styles.css
+      // own the visual treatment (gray-out + COMPLETE stamp; gold/amber border).
+      // Inline styles would otherwise override the state classes.
+      const subColor = colorForSub(event.crew);
+      eventEl.style.setProperty('--crew-color', subColor);
+      if (!isComplete && !isPastIncomplete) {
+        eventEl.style.background = hexToRgba(subColor, 0.28);
+        eventEl.style.borderLeftColor = subColor;
+      }
+
+      const job = document.createElement('span');
+      job.className = 'job';
+      job.textContent = event.jobNumber;
+      eventEl.appendChild(job);
+
+      const sep = document.createElement('span');
+      sep.className = 'sep';
+      sep.textContent = ' · ';
+      eventEl.appendChild(sep);
+
+      const meta = document.createElement('span');
+      meta.textContent = `${event.client} · ${event.city}`;
+      eventEl.appendChild(meta);
+
+      eventEl.title = `${event.crew}${event.scope ? ' — ' + event.scope : ''} — ${event.status}`;
+      eventsEl.appendChild(eventEl);
+    });
+
+    cell.appendChild(eventsEl);
+    grid.appendChild(cell);
+  });
+
+  applyAdaptiveDensity();
+
+  document.getElementById('update-time').textContent =
+    new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+}
+
+renderCalendar();
+setInterval(renderCalendar, 1 * 60 * 1000);
+bindAdaptiveDensityResize();
+</script>
+</body>
+</html>
+
+ 
