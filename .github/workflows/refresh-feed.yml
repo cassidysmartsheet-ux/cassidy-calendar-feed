@@ -1,0 +1,142 @@
+name: Refresh calendar feed (long shift)
+
+# ---------------------------------------------------------------------------
+# PARALLEL TEST. Nothing live reads the file this produces.
+#
+# The live repo (cassidy-tv-calendars) asks GitHub to run a job every 5 min.
+# Measured over 1,109 runs since 2026-05-06, GitHub actually delivers about
+# 12 runs a day -- a median gap of 94 minutes. The schedule trigger is
+# best-effort and has never honoured */5 for that repo.
+#
+# So instead of arguing with the trigger, this job STAYS RESIDENT: one run
+# refreshes every 5 minutes for a ~5h40m shift (GitHub's hard cap is 6h),
+# then hands off to the next shift itself. Cron is only a safety net for
+# restarting the chain if a shift dies.
+#
+# It commits ONLY when the schedule data actually changed, so we do not burn
+# the 10-builds-per-hour GitHub Pages ceiling on timestamp-only churn.
+# ---------------------------------------------------------------------------
+
+on:
+  schedule:
+    # Safety net only. Deliberately not on the hour -- GitHub's scheduler is
+    # most congested at :00 and delays are worst there.
+    - cron: '13,33,53 * * * *'
+  workflow_dispatch:
+    inputs:
+      shift_minutes:
+        description: 'Length of this shift in minutes (short values are for proving the handoff)'
+        required: false
+        default: '340'
+
+permissions:
+  contents: write
+
+# Exactly one shift alive at a time. A new shift replaces the old one.
+concurrency:
+  group: calendar-feed-shift
+  cancel-in-progress: true
+
+jobs:
+  shift:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Refresh every 5 minutes for one shift
+        env:
+          SMARTSHEET_TOKEN: ${{ secrets.SMARTSHEET_TOKEN }}
+          REPORT_ID: '3854855551537028'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          SHIFT_MINUTES="${{ github.event.inputs.shift_minutes || '340' }}"
+          echo "Shift length: $SHIFT_MINUTES minutes"
+          SHIFT_SECONDS=$((SHIFT_MINUTES * 60))
+          STARTED=$(date +%s)
+          ENDS=$((STARTED + SHIFT_SECONDS))
+          CYCLE=0
+
+          while [ "$(date +%s)" -lt "$ENDS" ]; do
+            CYCLE=$((CYCLE + 1))
+            NOW=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+            ELAPSED=$(( ($(date +%s) - STARTED) / 60 ))
+            echo "HEARTBEAT cycle=$CYCLE at=$NOW elapsed_min=$ELAPSED"
+
+            # ---- read from Smartsheet. GET only. Never writes. ----
+            if ! curl -sS --max-time 90 \
+                 -H "Authorization: Bearer $SMARTSHEET_TOKEN" \
+                 "https://api.smartsheet.com/2.0/reports/${REPORT_ID}?pageSize=10000" \
+                 -o raw.json; then
+              echo "  fetch failed -- skipping this cycle, will retry in 5 min"
+              sleep 300
+              continue
+            fi
+
+            if ! python3 scripts/transform.py < raw.json > data-v2.json.new; then
+              echo "  transform failed -- skipping this cycle"
+              rm -f data-v2.json.new
+              sleep 300
+              continue
+            fi
+
+            if python3 scripts/changed.py data-v2.json data-v2.json.new; then
+              mv data-v2.json.new data-v2.json
+              git add data-v2.json
+              if git diff --cached --quiet; then
+                echo "  nothing staged after all"
+              else
+                git commit -q -m "Refresh feed ${NOW} (cycle ${CYCLE})"
+                PUSHED=no
+                for attempt in 1 2 3; do
+                  if git push -q; then PUSHED=yes; break; fi
+                  echo "  push rejected (attempt $attempt) -- rebasing"
+                  git fetch -q origin main
+                  git rebase -q origin/main || git rebase --abort
+                  sleep $((attempt * 3))
+                done
+                echo "  committed and pushed=$PUSHED"
+              fi
+            else
+              rm -f data-v2.json.new
+            fi
+
+            rm -f raw.json
+            sleep 300
+          done
+
+          echo "Shift complete after $CYCLE cycles."
+
+      # Only hand off when the shift ended NATURALLY.
+      #
+      # This was 'if: always()' and that was a live bug: a cancelled shift also
+      # dispatched a replacement. Since a new shift cancels the old one, every
+      # cancellation spawned a successor that cancelled the shift that had just
+      # cancelled it -- an endless cancel storm. Caught in the test repo at
+      # 2026-08-05T13:04Z. On cancellation we do nothing, because whatever
+      # cancelled us is already running.
+      - name: Hand off to the next shift
+        if: success()
+        env:
+          HANDOFF_PAT: ${{ secrets.HANDOFF_PAT }}
+        run: |
+          # A run triggered by the built-in GITHUB_TOKEN cannot start another
+          # workflow run -- GitHub blocks that to prevent runaway recursion.
+          # So the handoff uses a PAT. Without this the chain would stall until
+          # the next cron fire, which is exactly the unreliability we are
+          # trying to escape.
+          if [ -z "$HANDOFF_PAT" ]; then
+            echo "No handoff token configured -- relying on cron to restart."
+            exit 0
+          fi
+          sleep 10
+          code=$(curl -sS -o /tmp/handoff.txt -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer $HANDOFF_PAT" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/refresh-feed.yml/dispatches" \
+            -d '{"ref":"main","inputs":{"shift_minutes":"340"}}')
+          echo "handoff dispatch HTTP $code"
+          [ "$code" = "204" ] || cat /tmp/handoff.txt
