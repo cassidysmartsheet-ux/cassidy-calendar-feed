@@ -59,6 +59,13 @@ const FAST_FEED_URL   = './data-v2.json';
 const LEGACY_FEED_URL = 'https://cassidysmartsheet-ux.github.io/cassidy-tv-calendars/data.json';
 const FEED_TIMEOUT_MS = 4000;   // never let a hung fetch freeze a TV
 
+// The fast feed only republishes when the schedule changes (plus a liveness
+// beat every 45 min), so its timestamp is "when the data last changed", NOT
+// "when we last looked". A quiet morning is not staleness. We therefore trust
+// the fast feed outright unless it has gone silent well past its liveness
+// beat, which is the only real signal that the job behind it has died.
+const FAST_FEED_TRUST_WINDOW_MIN = 90;
+
 async function fetchFeed(url, cacheBuster) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), FEED_TIMEOUT_MS);
@@ -101,7 +108,13 @@ async function loadEvents() {
   }
 
   candidates.sort((a, b) => feedAgeMs(a.payload) - feedAgeMs(b.payload));
-  const chosen = candidates[0];
+
+  // Prefer the fast feed while it is demonstrably alive; only fall back to
+  // whichever feed is freshest once the fast one has missed its liveness beat.
+  const fastCandidate = candidates.find(c => c.name === 'fast');
+  const fastAlive = fastCandidate &&
+    feedAgeMs(fastCandidate.payload) < FAST_FEED_TRUST_WINDOW_MIN * 60 * 1000;
+  const chosen = fastAlive ? fastCandidate : candidates[0];
   const ageMin = Math.round(feedAgeMs(chosen.payload) / 60000);
   console.log(`[calendar] using ${chosen.name} feed - ${chosen.payload.events.length} events, ${ageMin} min old (generated ${chosen.payload.generatedAt})`);
   updateFreshnessBadge(chosen.name, ageMin);

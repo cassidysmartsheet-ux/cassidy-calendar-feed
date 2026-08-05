@@ -9,6 +9,13 @@ rebuilds the website and burns the 10-builds-per-hour ceiling. We only commit
 when a human actually changed the schedule.
 """
 import json, sys
+from datetime import datetime, timezone
+
+# Even when nothing changed, re-publish at least this often so the file's
+# timestamp doubles as a "this feed is still alive" signal. Without it, a
+# quiet schedule is indistinguishable from a dead job. At 45 min this costs
+# ~1.3 site builds an hour, far under the 10/hour ceiling.
+LIVENESS_MAX_AGE_MIN = 45
 
 def payload(path):
     with open(path, encoding="utf-8") as fh:
@@ -34,7 +41,15 @@ if not new.get("events"):
     sys.exit(1)
 
 if old == new:
-    print("unchanged")
+    try:
+        prev = json.load(open(old_path, encoding="utf-8")).get("generatedAt")
+        age_min = (datetime.now(timezone.utc) - datetime.fromisoformat(prev)).total_seconds() / 60
+    except Exception:
+        age_min = float("inf")
+    if age_min >= LIVENESS_MAX_AGE_MIN:
+        print("unchanged, but feed is %.0f min old -> re-publishing as a liveness beat" % age_min)
+        sys.exit(0)
+    print("unchanged (%.0f min since last publish)" % age_min)
     sys.exit(1)
 
 o = {(e.get("jobNumber"), e.get("startDate")) for e in (old.get("events") or [])}
