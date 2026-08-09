@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T15:03:05+00:00",
+  "generatedAt": "2026-08-09T15:23:12+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 339,
   "events": [
@@ -41,7 +41,7 @@
       "phase": "Hand",
       "startDate": "2026-06-29",
       "endDate": "2026-06-29",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "2994-25",
@@ -51,7 +51,7 @@
       "phase": "Hand",
       "startDate": "2026-06-25",
       "endDate": "2026-06-25",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "2994-25",
@@ -61,7 +61,7 @@
       "phase": "Hand",
       "startDate": "2026-06-26",
       "endDate": "2026-06-26",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3194-25",
@@ -141,7 +141,7 @@
       "phase": "Hand",
       "startDate": "2026-07-15",
       "endDate": "2026-07-16",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "FJ-0229-26",
@@ -151,7 +151,7 @@
       "phase": "Hand",
       "startDate": "2026-07-20",
       "endDate": "2026-07-20",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "RO-001",
@@ -1731,7 +1731,7 @@
       "phase": "Paving",
       "startDate": "2026-07-31",
       "endDate": "2026-08-01",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3452-25",
@@ -1751,7 +1751,7 @@
       "phase": "Hand",
       "startDate": "2026-07-07",
       "endDate": "2026-07-08",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "FJ-0229-26",
@@ -1761,7 +1761,7 @@
       "phase": "Hand",
       "startDate": "2026-07-10",
       "endDate": "2026-07-10",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "FJ-0229-26",
@@ -2541,7 +2541,7 @@
       "phase": "Pulverizing",
       "startDate": "2026-07-27",
       "endDate": "2026-07-28",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3452-25",
