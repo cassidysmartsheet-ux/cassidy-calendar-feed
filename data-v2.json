@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-10T19:12:52+00:00",
+  "generatedAt": "2026-08-10T19:17:55+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 347,
+  "totalRows": 346,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1499,18 +1499,8 @@
       "city": "Wilmington",
       "crew": "Milling",
       "phase": "Milling",
-      "startDate": "2026-08-18",
-      "endDate": "2026-08-18",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3445-25",
-      "client": "JLL",
-      "city": "Wilmington",
-      "crew": "Milling",
-      "phase": "Milling",
-      "startDate": "2026-08-19",
-      "endDate": "2026-08-20",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-02",
       "status": "Scheduled"
     },
     {
