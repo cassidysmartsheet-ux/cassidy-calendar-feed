@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-10T18:57:46+00:00",
+  "generatedAt": "2026-08-10T19:02:48+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 343,
+  "totalRows": 345,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1091,6 +1091,26 @@
       "phase": "Paving",
       "startDate": "2026-10-19",
       "endDate": "2026-10-19",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4125-26",
+      "client": "UDR, Inc.",
+      "city": "Woburn",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-21",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4227-26",
+      "client": "Keypoint Partners",
+      "city": "Plymouth",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-04",
       "status": "Scheduled"
     },
     {
