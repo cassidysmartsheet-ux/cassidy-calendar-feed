@@ -1,0 +1,120 @@
+name: Refresh subcontractor data
+
+# ---------------------------------------------------------------------------
+# Subcontractor board data, migrated here from cassidy-tv-calendars on
+# 2026-08-11 so that retiring that repo cannot blank this calendar.
+#
+# Deliberately NOT folded into refresh-feed.yml's resident shift:
+#
+#   * The crew boards need 5-minute freshness because crews are dispatched off
+#     them. The subcontractor sheet is low-velocity -- twice an hour is ample.
+#   * Keeping it separate means a change here can never take down the crew
+#     feed, which is the pipeline people actually watch. Same siloing rule the
+#     original workflow was written under.
+#
+# Smartsheet access is READ ONLY: one GET against the Sheets API. There is no
+# code path in this workflow that can create, update or delete anything in
+# Smartsheet.
+#
+# The token is an encrypted Actions secret. The original workflow in the old
+# repo carried it in plaintext in a public repo; that is not carried forward.
+# ---------------------------------------------------------------------------
+
+on:
+  schedule:
+    # Off-the-hour on purpose -- GitHub's scheduler is most congested at :00.
+    - cron: '9,39 * * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-subcontractor
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Subcontractor Schedule from Smartsheet (GET only)
+        env:
+          SMARTSHEET_TOKEN: ${{ secrets.SMARTSHEET_TOKEN }}
+          SHEET_ID: '1314998310621060'
+        run: |
+          curl -sS --max-time 90 \
+            -H "Authorization: Bearer $SMARTSHEET_TOKEN" \
+            "https://api.smartsheet.com/2.0/sheets/${SHEET_ID}?pageSize=10000" \
+            -o raw-subcontractor.json
+          echo "raw-subcontractor.json: $(wc -c < raw-subcontractor.json) bytes"
+
+      - name: Transform
+        run: |
+          python3 scripts/transform-subcontractor.py \
+            < raw-subcontractor.json > data-subcontractor.json.new
+          python3 - <<'PY'
+          import json
+          d = json.load(open('data-subcontractor.json.new'))
+          print("events:", len(d["events"]), "of", d["totalRows"], "sheet rows")
+          PY
+
+      - name: Commit only when the schedule actually changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Compare content while ignoring generatedAt, so a timestamp alone
+          # never triggers a commit and therefore never burns a Pages build.
+          # Also refuses to publish an empty payload, so a bad fetch cannot
+          # blank the board.
+          if python3 - <<'PY'
+          import json, sys
+          def body(p):
+              d = json.load(open(p, encoding='utf-8'))
+              return {"source": d.get("source"),
+                      "totalRows": d.get("totalRows"),
+                      "events": d.get("events")}
+          try:
+              new = body('data-subcontractor.json.new')
+          except Exception as exc:
+              print("new file unreadable (%s) -> refusing to commit" % exc)
+              sys.exit(1)
+          if not new["events"]:
+              print("zero events -> refusing to commit (bad-fetch guard)")
+              sys.exit(1)
+          try:
+              old = body('data-subcontractor.json')
+          except Exception:
+              print("no readable previous file -> treating as changed")
+              sys.exit(0)
+          if old == new:
+              print("unchanged -> not committing")
+              sys.exit(1)
+          print("changed: %d -> %d events" % (len(old["events"]), len(new["events"])))
+          sys.exit(0)
+          PY
+          then
+            mv data-subcontractor.json.new data-subcontractor.json
+            git add data-subcontractor.json
+            if git diff --cached --quiet; then
+              echo "nothing staged after all"
+            else
+              git commit -q -m "Refresh subcontractor data ($(date -u +%Y-%m-%dT%H:%MZ))"
+              for attempt in 1 2 3; do
+                if git push -q; then echo "pushed on attempt $attempt"; break; fi
+                echo "push rejected (attempt $attempt) -- rebasing"
+                git fetch -q origin main
+                git rebase -q origin/main || git rebase --abort
+                sleep $((attempt * 3))
+              done
+            fi
+          else
+            echo "no commit this run"
+            rm -f data-subcontractor.json.new
+          fi
+
+          rm -f raw-subcontractor.json
