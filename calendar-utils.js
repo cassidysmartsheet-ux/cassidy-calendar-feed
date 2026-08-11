@@ -45,26 +45,22 @@ function getCrewSlug(crew) { return CREW_SLUGS[crew] || 'milling'; }
 function getCrewCode(crew) { return CREW_CODES[crew] || ''; }
 
 // ============ EVENT LOADING ============
-// Two sources, freshest valid one wins.
+// ONE source: data-v2.json in this repo, refreshed every 5 minutes by a
+// resident job (see .github/workflows/refresh-feed.yml).
 //
-//   FAST  - data-v2.json in this repo, refreshed every 5 minutes by a resident
-//           job (see .github/workflows/refresh-feed.yml).
-//   LEGACY- data.json on the original calendar site, refreshed whenever GitHub
-//           feels like honouring its cron (measured median: 94 minutes).
+// This used to race a second "legacy" feed hosted on the original calendar
+// repo and take whichever looked freshest. That repo was retired 2026-08-11,
+// but the fallback was removed for a stronger reason than tidiness: it was a
+// correctness hazard. If the fast feed went quiet for longer than its trust
+// window, the boards would silently switch to the legacy feed -- and on
+// 2026-08-11 that feed was missing real scheduled work (filler jobs whose
+// Job # had not propagated from the setup sheet). A board that quietly swaps
+// to stale data is worse than one that shows its age, because nobody can tell.
 //
-// If the fast feed is missing, broken, empty, slow, or somehow older, the
-// legacy feed is used and the board behaves exactly like the original site.
-// There is no failure mode here that is worse than the original behaviour.
+// If this feed is unavailable the board now renders empty and the freshness
+// badge reads "unavailable", which is loud and obvious on a TV.
 const FAST_FEED_URL   = './data-v2.json';
-const LEGACY_FEED_URL = 'https://cassidysmartsheet-ux.github.io/cassidy-tv-calendars/data.json';
 const FEED_TIMEOUT_MS = 4000;   // never let a hung fetch freeze a TV
-
-// The fast feed only republishes when the schedule changes (plus a liveness
-// beat every 45 min), so its timestamp is "when the data last changed", NOT
-// "when we last looked". A quiet morning is not staleness. We therefore trust
-// the fast feed outright unless it has gone silent well past its liveness
-// beat, which is the only real signal that the job behind it has died.
-const FAST_FEED_TRUST_WINDOW_MIN = 90;
 
 async function fetchFeed(url, cacheBuster) {
   const controller = new AbortController();
@@ -91,35 +87,20 @@ function feedAgeMs(payload) {
 async function loadEvents() {
   const cb = Math.floor(Date.now() / 60000); // changes once per minute
 
-  const [fast, legacy] = await Promise.allSettled([
-    fetchFeed(FAST_FEED_URL, cb),
-    fetchFeed(LEGACY_FEED_URL, cb)
-  ]);
-
-  const candidates = [];
-  if (fast.status   === 'fulfilled') candidates.push({ name: 'fast',   payload: fast.value });
-  if (legacy.status === 'fulfilled') candidates.push({ name: 'legacy', payload: legacy.value });
-
-  if (candidates.length === 0) {
-    console.warn('[calendar] both feeds unavailable:',
-      fast.reason && fast.reason.message, '/', legacy.reason && legacy.reason.message);
+  let payload;
+  try {
+    payload = await fetchFeed(FAST_FEED_URL, cb);
+  } catch (err) {
+    console.warn('[calendar] feed unavailable:', err && err.message);
     updateFreshnessBadge(null, null);
     return [];
   }
 
-  candidates.sort((a, b) => feedAgeMs(a.payload) - feedAgeMs(b.payload));
+  const ageMin = Math.round(feedAgeMs(payload) / 60000);
+  console.log(`[calendar] ${payload.events.length} events, ${ageMin} min old (generated ${payload.generatedAt})`);
+  updateFreshnessBadge('fast', ageMin);
 
-  // Prefer the fast feed while it is demonstrably alive; only fall back to
-  // whichever feed is freshest once the fast one has missed its liveness beat.
-  const fastCandidate = candidates.find(c => c.name === 'fast');
-  const fastAlive = fastCandidate &&
-    feedAgeMs(fastCandidate.payload) < FAST_FEED_TRUST_WINDOW_MIN * 60 * 1000;
-  const chosen = fastAlive ? fastCandidate : candidates[0];
-  const ageMin = Math.round(feedAgeMs(chosen.payload) / 60000);
-  console.log(`[calendar] using ${chosen.name} feed - ${chosen.payload.events.length} events, ${ageMin} min old (generated ${chosen.payload.generatedAt})`);
-  updateFreshnessBadge(chosen.name, ageMin);
-
-  const events = chosen.payload.events.map(e => ({
+  const events = payload.events.map(e => ({
     jobNumber: e.jobNumber,
     client:    e.client || '',
     city:      e.city || '',
@@ -141,8 +122,7 @@ function updateFreshnessBadge(feedName, ageMin) {
   if (!feedName) { el.textContent = 'unavailable'; return; }
   // The fast feed republishes on change, plus a liveness beat every 20 min, so
   // this reads as "confirmed current as of", not "we have not looked since".
-  const label = ageMin <= 1 ? 'just now' : ageMin + ' min ago';
-  el.textContent = feedName === 'fast' ? label : label + ' · backup feed';
+  el.textContent = ageMin <= 1 ? 'just now' : ageMin + ' min ago';
 }
 
 // Parse 'YYYY-MM-DD' as a local-naive date so calendar-cell positioning
