@@ -73,14 +73,16 @@ function colorForSub(name) {
 }
 
 // ============ SILOED DATA FETCH ============
-// Reads data-subcontractor.json (refreshed every 5 min by
-// .github/workflows/refresh-subcontractor-data.yml from the Subcontractor
-// Schedule sheet). Does NOT use loadEvents() from calendar-utils.js — that
-// function reads data.json, which is the internal-crew pipeline.
+// Reads data-subcontractor.json from THIS repo, refreshed by
+// .github/workflows/refresh-subcontractor.yml from the Subcontractor
+// Schedule sheet. Migrated off the retired cassidy-tv-calendars repo on
+// 2026-08-11 -- this board used to fetch its data cross-origin from there.
+// Does NOT use loadEvents() from calendar-utils.js; that function reads
+// data-v2.json, which is the internal-crew pipeline.
 async function loadSubEvents() {
   const cb = Math.floor(Date.now() / 60000);
   try {
-    const resp = await fetch(`https://cassidysmartsheet-ux.github.io/cassidy-tv-calendars/data-subcontractor.json?cb=${cb}`, { cache: 'no-store' });
+    const resp = await fetch(`data-subcontractor.json?cb=${cb}`, { cache: 'no-store' });
     if (!resp.ok) throw new Error('data-subcontractor.json HTTP ' + resp.status);
     const payload = await resp.json();
     const events = (payload.events || []).map(e => ({
