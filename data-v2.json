@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:12:56+00:00",
+  "generatedAt": "2026-08-13T19:33:02+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 347,
   "events": [
@@ -1190,7 +1190,7 @@
       "crew": "Hand",
       "phase": "Paving",
       "startDate": "2026-10-12",
-      "endDate": "2026-10-13",
+      "endDate": "2026-10-14",
       "status": "Scheduled"
     },
     {
@@ -3394,6 +3394,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "3279-25",
+      "client": "Growth companies",
+      "city": "Waltham",
+      "crew": "Reclaim/Grading",
+      "phase": "Pulverizing",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-10",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3641-26",
       "client": "Evergreen Management Group",
       "city": "Hudson",
@@ -3461,16 +3471,6 @@
       "phase": "Paving",
       "startDate": "2026-10-05",
       "endDate": "2026-10-06",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3279-25",
-      "client": "Growth companies",
-      "city": "Waltham",
-      "crew": "Pulverizing",
-      "phase": "Pulverizing",
-      "startDate": "2026-10-08",
-      "endDate": "2026-10-09",
       "status": "Scheduled"
     }
   ]
