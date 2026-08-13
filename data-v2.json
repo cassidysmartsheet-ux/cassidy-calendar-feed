@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T18:52:43+00:00",
+  "generatedAt": "2026-08-13T18:57:46+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 347,
   "events": [
@@ -281,7 +281,7 @@
       "phase": "Paving",
       "startDate": "2026-08-04",
       "endDate": "2026-08-04",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3853-26",
@@ -1311,7 +1311,7 @@
       "phase": "Milling",
       "startDate": "2026-08-05",
       "endDate": "2026-08-06",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3790-26",
@@ -2101,7 +2101,7 @@
       "phase": "Paving",
       "startDate": "2026-08-07",
       "endDate": "2026-08-07",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3628-26",
@@ -2111,7 +2111,7 @@
       "phase": "Paving",
       "startDate": "2026-08-10",
       "endDate": "2026-08-10",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3743-26",
@@ -2831,7 +2831,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-06-17",
       "endDate": "2026-06-19",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3709-26",
