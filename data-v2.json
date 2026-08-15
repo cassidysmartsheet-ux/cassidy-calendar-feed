@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-15T16:37:39+00:00",
+  "generatedAt": "2026-08-15T17:00:39+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 347,
+  "totalRows": 346,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2452,16 +2452,6 @@
       "startDate": "2026-07-17",
       "endDate": "2026-07-17",
       "status": "Complete"
-    },
-    {
-      "jobNumber": "3938-26",
-      "client": "SLT Construction",
-      "city": "Hyaniss",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-11-09",
-      "endDate": "2026-11-10",
-      "status": "Scheduled"
     },
     {
       "jobNumber": "FJ-0374-26",
