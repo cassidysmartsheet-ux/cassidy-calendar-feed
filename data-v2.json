@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-15T17:00:39+00:00",
+  "generatedAt": "2026-08-15T17:05:43+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 346,
+  "totalRows": 344,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1574,16 +1574,6 @@
       "status": "Complete"
     },
     {
-      "jobNumber": "3455-25",
-      "client": "SLT Construction",
-      "city": "Walpole",
-      "crew": "Milling",
-      "phase": "Milling",
-      "startDate": "2026-09-12",
-      "endDate": "2026-09-12",
-      "status": "Scheduled"
-    },
-    {
       "jobNumber": "4059-26",
       "client": "Ferris Development",
       "city": "Southborough",
@@ -3101,16 +3091,6 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-09-14",
       "endDate": "2026-09-15",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3455-25",
-      "client": "SLT Construction",
-      "city": "Walpole",
-      "crew": "Reclaim/Grading",
-      "phase": "Hand",
-      "startDate": "2026-09-24",
-      "endDate": "2026-09-25",
       "status": "Scheduled"
     },
     {
