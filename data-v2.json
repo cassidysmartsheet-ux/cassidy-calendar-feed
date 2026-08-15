@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T17:28:55+00:00",
+  "generatedAt": "2026-08-15T17:33:58+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 344,
   "events": [
@@ -522,16 +522,6 @@
       "startDate": "2026-06-15",
       "endDate": "2026-06-15",
       "status": "Complete"
-    },
-    {
-      "jobNumber": "3779-26",
-      "client": "Russo Brothers",
-      "city": "",
-      "crew": "Hand",
-      "phase": "Paving",
-      "startDate": "2026-08-18",
-      "endDate": "2026-08-18",
-      "status": "Scheduled"
     },
     {
       "jobNumber": "3869-26",
@@ -2361,6 +2351,16 @@
       "phase": "Paving",
       "startDate": "2026-08-17",
       "endDate": "2026-08-17",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3779-26",
+      "client": "Russo Brothers",
+      "city": "",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-08-18",
+      "endDate": "2026-08-18",
       "status": "Scheduled"
     },
     {
