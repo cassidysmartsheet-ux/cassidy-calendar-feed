@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-18T21:35:56+00:00",
+  "generatedAt": "2026-08-18T21:59:10+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 344,
+  "totalRows": 342,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2471,26 +2471,6 @@
       "phase": "Paving",
       "startDate": "2026-09-17",
       "endDate": "2026-09-17",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3455-25",
-      "client": "SLT Construction",
-      "city": "Walpole",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-10-02",
-      "endDate": "2026-10-02",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3455-25",
-      "client": "SLT Construction",
-      "city": "Walpole",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-05",
       "status": "Scheduled"
     },
     {
