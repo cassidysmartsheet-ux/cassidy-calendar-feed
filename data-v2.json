@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-19T23:20:58+00:00",
+  "generatedAt": "2026-08-19T23:36:02+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 342,
+  "totalRows": 343,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1891,6 +1891,16 @@
       "phase": "Milling",
       "startDate": "2026-10-14",
       "endDate": "2026-10-15",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4290-26",
+      "client": "JT Lynch Construction",
+      "city": "Chelsea",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-09",
       "status": "Scheduled"
     },
     {
