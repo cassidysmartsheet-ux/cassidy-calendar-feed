@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T13:22:52+00:00",
+  "generatedAt": "2026-08-21T13:43:18+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 343,
+  "totalRows": 344,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -600,7 +600,7 @@
       "crew": "Hand",
       "phase": "Paving",
       "startDate": "2026-08-24",
-      "endDate": "2026-08-25",
+      "endDate": "2026-08-24",
       "status": "Scheduled"
     },
     {
@@ -2442,6 +2442,16 @@
       "startDate": "2026-08-08",
       "endDate": "2026-08-08",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "3729-26",
+      "client": "Russo Bros",
+      "city": "Westborough",
+      "crew": "Paving",
+      "phase": "Hand",
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-15",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "3918-26",
