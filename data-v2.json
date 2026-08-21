@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T19:56:44+00:00",
+  "generatedAt": "2026-08-21T20:01:47+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 355,
+  "totalRows": 356,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -3551,6 +3551,16 @@
       "phase": "Paving",
       "startDate": "2026-10-05",
       "endDate": "2026-10-06",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4312-26",
+      "client": "Quirk Construction Corp",
+      "city": "Concord",
+      "crew": "Pulverizing",
+      "phase": "Pulverizing",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-04",
       "status": "Scheduled"
     }
   ]
