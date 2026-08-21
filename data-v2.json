@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T15:23:24+00:00",
+  "generatedAt": "2026-08-21T15:33:04+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 343,
+  "totalRows": 347,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1894,6 +1894,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "FJ-0530-26",
+      "client": "Cassidy landscape",
+      "city": "billerica",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-02",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3112-25",
       "client": "CW Contracting",
       "city": "West Roxbury",
@@ -2724,6 +2734,26 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "FJ-0530-26",
+      "client": "Cassidy landscape",
+      "city": "billerica",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-24",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "FJ-0530-26",
+      "client": "Cassidy landscape",
+      "city": "billerica",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-05",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "2994-25",
       "client": "Berkley",
       "city": "Stoughton",
@@ -3361,6 +3391,16 @@
       "phase": "Pulverizing",
       "startDate": "2026-10-08",
       "endDate": "2026-10-10",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "FJ-0530-26",
+      "client": "Cassidy landscape",
+      "city": "billerica",
+      "crew": "Reclaim/Grading",
+      "phase": "Reclaim/Grading",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-16",
       "status": "Scheduled"
     },
     {
