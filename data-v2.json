@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T16:16:00+00:00",
+  "generatedAt": "2026-08-21T16:21:03+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 347,
+  "totalRows": 349,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1191,6 +1191,16 @@
       "phase": "Hand",
       "startDate": "2026-09-04",
       "endDate": "2026-09-04",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "FJ-0529-26",
+      "client": "Lexington, Town Police Shooting Range",
+      "city": "Lexington",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-10-27",
+      "endDate": "2026-10-27",
       "status": "Scheduled"
     },
     {
@@ -3391,6 +3401,16 @@
       "phase": "Pulverizing",
       "startDate": "2026-10-08",
       "endDate": "2026-10-10",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "FJ-0529-26",
+      "client": "Lexington, Town Police Shooting Range",
+      "city": "Lexington",
+      "crew": "Reclaim/Grading",
+      "phase": "Reclaim/Grading",
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-26",
       "status": "Scheduled"
     },
     {
