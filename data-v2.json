@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T16:41:13+00:00",
+  "generatedAt": "2026-08-21T16:46:17+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 349,
+  "totalRows": 352,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1884,6 +1884,16 @@
       "status": "Complete"
     },
     {
+      "jobNumber": "4083-26",
+      "client": "South Shore Plaza",
+      "city": "Braintree",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-16",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "4125-26",
       "client": "UDR, Inc.",
       "city": "Woburn",
@@ -2744,6 +2754,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4083-26",
+      "client": "South Shore Plaza",
+      "city": "Braintree",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-29",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "FJ-0530-26",
       "client": "Cassidy landscape",
       "city": "billerica",
@@ -3391,6 +3411,16 @@
       "phase": "Pulverizing",
       "startDate": "2026-10-20",
       "endDate": "2026-10-22",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4083-26",
+      "client": "South Shore Plaza",
+      "city": "Braintree",
+      "crew": "Reclaim/Grading",
+      "phase": "Reclaim/Grading",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-16",
       "status": "Scheduled"
     },
     {
