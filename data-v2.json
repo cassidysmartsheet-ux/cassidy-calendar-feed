@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-21T17:33:51+00:00",
+  "generatedAt": "2026-08-21T17:38:54+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 352,
+  "totalRows": 354,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1194,6 +1194,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "3801-26",
+      "client": "Superior Sealcoating",
+      "city": "Burlington",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-22",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "FJ-0529-26",
       "client": "Lexington, Town Police Shooting Range",
       "city": "Lexington",
@@ -1901,6 +1911,16 @@
       "phase": "Milling",
       "startDate": "2026-10-14",
       "endDate": "2026-10-15",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3801-26",
+      "client": "Superior Sealcoating",
+      "city": "Burlington",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-19",
       "status": "Scheduled"
     },
     {
