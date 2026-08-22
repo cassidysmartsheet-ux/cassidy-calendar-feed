@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-22T13:28:42+00:00",
+  "generatedAt": "2026-08-22T13:43:47+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 356,
+  "totalRows": 357,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1122,6 +1122,16 @@
       "startDate": "2026-08-21",
       "endDate": "2026-08-21",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "FJ-0513-26",
+      "client": "city of billerica",
+      "city": "billerica",
+      "crew": "Hand",
+      "phase": "Milling",
+      "startDate": "2026-08-24",
+      "endDate": "2026-08-24",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4185-26",
