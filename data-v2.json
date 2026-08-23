@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T21:28:33+00:00",
+  "generatedAt": "2026-08-23T21:35:11+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 356,
   "events": [
@@ -762,6 +762,16 @@
       "startDate": "2026-07-10",
       "endDate": "2026-07-10",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "4095-26",
+      "client": "Silva Associates Poroperty Management",
+      "city": "Andover",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-14",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4086-26",
@@ -2512,16 +2522,6 @@
       "startDate": "2026-06-30",
       "endDate": "2026-06-30",
       "status": "Complete"
-    },
-    {
-      "jobNumber": "4095-26",
-      "client": "Silva Associates Poroperty Management",
-      "city": "Andover",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-09-17",
-      "endDate": "2026-09-17",
-      "status": "Scheduled"
     },
     {
       "jobNumber": "4059-26",
