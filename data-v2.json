@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-23T21:18:30+00:00",
+  "generatedAt": "2026-08-23T21:28:33+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 357,
+  "totalRows": 356,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -871,26 +871,6 @@
       "phase": "Paving",
       "startDate": "2026-09-08",
       "endDate": "2026-09-09",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3258-25",
-      "client": "JLL- north Billerica",
-      "city": "North Billerica",
-      "crew": "Hand",
-      "phase": "Paving",
-      "startDate": "2026-09-10",
-      "endDate": "2026-09-11",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3258-25",
-      "client": "JLL- north Billerica",
-      "city": "North Billerica",
-      "crew": "Hand",
-      "phase": "Paving",
-      "startDate": "2026-09-14",
-      "endDate": "2026-09-14",
       "status": "Scheduled"
     },
     {
@@ -2601,6 +2581,16 @@
       "phase": "Paving",
       "startDate": "2026-08-23",
       "endDate": "2026-08-24",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3258-25",
+      "client": "JLL- north Billerica",
+      "city": "North Billerica",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-18",
       "status": "Scheduled"
     },
     {
