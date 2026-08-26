@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-26T21:14:46+00:00",
+  "generatedAt": "2026-08-26T21:19:49+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 356,
+  "totalRows": 357,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1971,6 +1971,16 @@
       "phase": "Milling",
       "startDate": "2026-09-09",
       "endDate": "2026-09-09",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4224-26",
+      "client": "Western Earthworks LLC",
+      "city": "Fitchburg",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-02",
       "status": "Scheduled"
     },
     {
