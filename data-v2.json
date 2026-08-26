@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T17:54:08+00:00",
+  "generatedAt": "2026-08-26T18:14:15+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 357,
   "events": [
@@ -834,6 +834,16 @@
       "status": "Complete"
     },
     {
+      "jobNumber": "4059-26",
+      "client": "Ferris Development",
+      "city": "Southborough",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "4035-26",
       "client": "Alfred Taney PE",
       "city": "Salem",
@@ -1609,8 +1619,8 @@
       "city": "Southborough",
       "crew": "Milling",
       "phase": "Milling",
-      "startDate": "2026-09-02",
-      "endDate": "2026-09-02",
+      "startDate": "2026-10-27",
+      "endDate": "2026-10-27",
       "status": "Scheduled"
     },
     {
@@ -2552,16 +2562,6 @@
       "startDate": "2026-06-30",
       "endDate": "2026-06-30",
       "status": "Complete"
-    },
-    {
-      "jobNumber": "4059-26",
-      "client": "Ferris Development",
-      "city": "Southborough",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-09-03",
-      "endDate": "2026-09-03",
-      "status": "Scheduled"
     },
     {
       "jobNumber": "4079-26",
