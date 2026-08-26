@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-26T14:31:10+00:00",
+  "generatedAt": "2026-08-26T14:41:16+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 354,
+  "totalRows": 356,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -442,6 +442,16 @@
       "startDate": "2026-06-05",
       "endDate": "2026-06-05",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "3747-26",
+      "client": "Jewish Community Center",
+      "city": "Marblehead",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-02",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "3925-26",
@@ -1021,6 +1031,16 @@
       "phase": "Hand",
       "startDate": "2026-08-22",
       "endDate": "2026-08-22",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4094-26",
+      "client": "Prime Group - Shetland Park",
+      "city": "Salem",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-08-25",
+      "endDate": "2026-08-25",
       "status": "Scheduled"
     },
     {
@@ -2359,7 +2379,7 @@
       "city": "Marblehead",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-08-26",
+      "startDate": "2026-08-27",
       "endDate": "2026-08-28",
       "status": "Scheduled"
     },
