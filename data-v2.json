@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-26T21:19:49+00:00",
+  "generatedAt": "2026-08-26T21:24:51+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 357,
+  "totalRows": 358,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -3491,6 +3491,16 @@
       "phase": "Pulverizing",
       "startDate": "2026-10-27",
       "endDate": "2026-10-30",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4224-26",
+      "client": "Western Earthworks LLC",
+      "city": "Fitchburg",
+      "crew": "Reclaim/Grading",
+      "phase": "Reclaim/Grading",
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-09",
       "status": "Scheduled"
     },
     {
