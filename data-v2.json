@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-26T20:39:33+00:00",
+  "generatedAt": "2026-08-26T20:59:39+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 357,
+  "totalRows": 356,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -981,6 +981,16 @@
       "phase": "Paving",
       "startDate": "2026-10-05",
       "endDate": "2026-10-06",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3481-25",
+      "client": "Nellys Construction",
+      "city": "Wilmington",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-16",
       "status": "Scheduled"
     },
     {
@@ -2654,26 +2664,6 @@
       "status": "Scheduled"
     },
     {
-      "jobNumber": "3481-25",
-      "client": "Nellys Construction",
-      "city": "Wilmington",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-09-11",
-      "endDate": "2026-09-11",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3481-25",
-      "client": "Nellys Construction",
-      "city": "Wilmington",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-09-14",
-      "endDate": "2026-09-14",
-      "status": "Scheduled"
-    },
-    {
       "jobNumber": "FJ-0482-26",
       "client": "Groveland school",
       "city": "groveland",
@@ -3299,8 +3289,8 @@
       "city": "Wilmington",
       "crew": "Reclaim/Grading",
       "phase": "Reclaim/Grading",
-      "startDate": "2026-09-08",
-      "endDate": "2026-09-09",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-06",
       "status": "Scheduled"
     },
     {
