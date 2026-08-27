@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T14:21:22+00:00",
+  "generatedAt": "2026-08-27T14:31:27+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 365,
+  "totalRows": 366,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1252,6 +1252,16 @@
       "startDate": "2026-10-27",
       "endDate": "2026-10-27",
       "status": "hub"
+    },
+    {
+      "jobNumber": "3824-26",
+      "client": "UG2 = Alexandria Real estate",
+      "city": "Waltham",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-25",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "2845-25",
