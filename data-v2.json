@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T14:31:27+00:00",
+  "generatedAt": "2026-08-27T14:35:34+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 366,
+  "totalRows": 367,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1252,6 +1252,16 @@
       "startDate": "2026-10-27",
       "endDate": "2026-10-27",
       "status": "hub"
+    },
+    {
+      "jobNumber": "4277-26",
+      "client": "Gold Property",
+      "city": "Danvers",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-14",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "3824-26",
