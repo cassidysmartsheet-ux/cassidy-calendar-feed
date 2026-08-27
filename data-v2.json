@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T19:37:25+00:00",
+  "generatedAt": "2026-08-27T19:42:28+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 370,
   "events": [
@@ -1129,8 +1129,8 @@
       "city": "Newburyport",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-08-28",
-      "endDate": "2026-08-28",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-01",
       "status": "Scheduled"
     },
     {
