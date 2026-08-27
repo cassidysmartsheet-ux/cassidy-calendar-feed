@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T14:06:15+00:00",
+  "generatedAt": "2026-08-27T14:16:20+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 363,
+  "totalRows": 365,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2844,6 +2844,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "2845-25",
+      "client": "Neville - hannaford mkt",
+      "city": "Dover",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-16",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "2994-25",
       "client": "Berkley",
       "city": "Stoughton",
@@ -3551,6 +3561,16 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-09-09",
       "endDate": "2026-09-09",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "2845-25",
+      "client": "Neville - hannaford mkt",
+      "city": "Dover",
+      "crew": "Reclaim/Grading",
+      "phase": "Reclaim/Grading",
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-15",
       "status": "Scheduled"
     },
     {
