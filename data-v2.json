@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T13:25:49+00:00",
+  "generatedAt": "2026-08-27T13:35:58+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 359,
+  "totalRows": 361,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -984,6 +984,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "3944-26",
+      "client": "JJ Phelan",
+      "city": "Dorchester",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-09-29",
+      "endDate": "2026-09-30",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3481-25",
       "client": "Nellys Construction",
       "city": "Wilmington",
@@ -1032,16 +1042,6 @@
       "startDate": "2026-08-10",
       "endDate": "2026-08-10",
       "status": "Complete"
-    },
-    {
-      "jobNumber": "2848-25",
-      "client": "Berkeley Partners",
-      "city": "Billericca",
-      "crew": "Hand",
-      "phase": "Paving",
-      "startDate": "2026-09-08",
-      "endDate": "2026-09-08",
-      "status": "Scheduled"
     },
     {
       "jobNumber": "4182-26",
@@ -2659,16 +2659,6 @@
       "city": "Dorchester",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-09-29",
-      "endDate": "2026-09-30",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3944-26",
-      "client": "JJ Phelan",
-      "city": "Dorchester",
-      "crew": "Paving",
-      "phase": "Paving",
       "startDate": "2026-09-02",
       "endDate": "2026-09-02",
       "status": "Scheduled"
@@ -2711,6 +2701,16 @@
       "phase": "Paving",
       "startDate": "2026-09-23",
       "endDate": "2026-09-25",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "2848-25",
+      "client": "Berkeley Partners",
+      "city": "Billericca",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-03",
       "status": "Scheduled"
     },
     {
@@ -2821,6 +2821,16 @@
       "phase": "Paving",
       "startDate": "2026-10-05",
       "endDate": "2026-10-05",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3843-26",
+      "client": "JLL - 2027 budget",
+      "city": "Marlborough",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-05",
       "status": "Scheduled"
     },
     {
@@ -3501,6 +3511,16 @@
       "phase": "Pulverizing",
       "startDate": "2026-10-27",
       "endDate": "2026-10-30",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3843-26",
+      "client": "JLL - 2027 budget",
+      "city": "Marlborough",
+      "crew": "Reclaim/Grading",
+      "phase": "Pulverizing",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-03",
       "status": "Scheduled"
     },
     {
