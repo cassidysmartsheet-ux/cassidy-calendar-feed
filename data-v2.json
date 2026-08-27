@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T13:35:58+00:00",
+  "generatedAt": "2026-08-27T13:41:01+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 361,
+  "totalRows": 363,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2804,6 +2804,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "3842-26",
+      "client": "JLL - Marlborough",
+      "city": "marlborouggh",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-08-06",
+      "endDate": "2026-08-06",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "FJ-0530-26",
       "client": "Cassidy landscape",
       "city": "billerica",
@@ -3481,6 +3491,16 @@
       "phase": "Pulverizing",
       "startDate": "2026-10-08",
       "endDate": "2026-10-10",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3842-26",
+      "client": "JLL - Marlborough",
+      "city": "marlborouggh",
+      "crew": "Reclaim/Grading",
+      "phase": "Pulverizing",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
       "status": "Scheduled"
     },
     {
