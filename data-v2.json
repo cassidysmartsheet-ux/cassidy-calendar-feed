@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-29T13:59:28+00:00",
+  "generatedAt": "2026-08-29T14:09:32+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 373,
+  "totalRows": 377,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1301,6 +1301,16 @@
       "phase": "Hand",
       "startDate": "2026-09-11",
       "endDate": "2026-09-11",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4280-26",
+      "client": "V12 Investments",
+      "city": "Wilmington",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-13",
       "status": "Scheduled"
     },
     {
@@ -2924,6 +2934,26 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4280-26",
+      "client": "V12 Investments",
+      "city": "Wilmington",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-12",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4280-26",
+      "client": "V12 Investments",
+      "city": "Wilmington",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-16",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "2994-25",
       "client": "Berkley",
       "city": "Stoughton",
@@ -3651,6 +3681,16 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-09-15",
       "endDate": "2026-09-15",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4280-26",
+      "client": "V12 Investments",
+      "city": "Wilmington",
+      "crew": "Reclaim/Grading",
+      "phase": "Reclaim/Grading",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-11",
       "status": "Scheduled"
     },
     {
