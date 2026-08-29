@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-29T13:44:21+00:00",
+  "generatedAt": "2026-08-29T13:49:25+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 371,
+  "totalRows": 372,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2491,6 +2491,16 @@
       "phase": "Paving",
       "startDate": "2026-09-19",
       "endDate": "2026-09-19",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3747-26",
+      "client": "Jewish Community Center",
+      "city": "Marblehead",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-08-31",
+      "endDate": "2026-08-31",
       "status": "Scheduled"
     },
     {
