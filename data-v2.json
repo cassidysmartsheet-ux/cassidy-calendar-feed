@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T14:19:40+00:00",
+  "generatedAt": "2026-08-31T14:34:46+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 380,
   "events": [
@@ -1252,6 +1252,16 @@
       "startDate": "2026-10-27",
       "endDate": "2026-10-27",
       "status": "hub"
+    },
+    {
+      "jobNumber": "FJ-0530-26",
+      "client": "Cassidy landscape",
+      "city": "billerica",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-09-24",
+      "endDate": "2026-09-24",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4277-26",
@@ -2911,16 +2921,6 @@
       "phase": "Paving",
       "startDate": "2026-08-06",
       "endDate": "2026-08-06",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "FJ-0530-26",
-      "client": "Cassidy landscape",
-      "city": "billerica",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-09-24",
-      "endDate": "2026-09-24",
       "status": "Scheduled"
     },
     {
