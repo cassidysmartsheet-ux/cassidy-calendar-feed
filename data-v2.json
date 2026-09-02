@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T17:03:58+00:00",
+  "generatedAt": "2026-09-02T17:09:01+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 381,
   "events": [
@@ -601,7 +601,7 @@
       "phase": "Paving",
       "startDate": "2026-08-24",
       "endDate": "2026-08-24",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3395-25",
@@ -2320,7 +2320,7 @@
       "crew": "Paving",
       "phase": "Paving",
       "startDate": "2026-09-08",
-      "endDate": "2026-09-08",
+      "endDate": "2026-09-09",
       "status": "Scheduled"
     },
     {
@@ -2661,7 +2661,7 @@
       "phase": "Hand",
       "startDate": "2026-09-15",
       "endDate": "2026-09-15",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3918-26",
@@ -2819,8 +2819,8 @@
       "city": "Billericca",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-09-09",
-      "endDate": "2026-09-09",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-10",
       "status": "Scheduled"
     },
     {
