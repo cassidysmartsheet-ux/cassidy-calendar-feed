@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-02T16:58:56+00:00",
+  "generatedAt": "2026-09-02T17:03:58+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 380,
+  "totalRows": 381,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2819,8 +2819,8 @@
       "city": "Billericca",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-09-03",
-      "endDate": "2026-09-03",
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-09",
       "status": "Scheduled"
     },
     {
@@ -2859,8 +2859,18 @@
       "city": "Burlington",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-09-09",
-      "endDate": "2026-09-10",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-11",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3710-26",
+      "client": "Grasso construction",
+      "city": "Burlington",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-14",
       "status": "Scheduled"
     },
     {
