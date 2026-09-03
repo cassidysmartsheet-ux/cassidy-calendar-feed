@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T19:32:10+00:00",
+  "generatedAt": "2026-09-03T19:37:13+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 383,
   "events": [
@@ -1731,7 +1731,7 @@
       "phase": "Milling",
       "startDate": "2026-08-18",
       "endDate": "2026-08-20",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3445-25",
@@ -1741,7 +1741,7 @@
       "phase": "Milling",
       "startDate": "2026-08-17",
       "endDate": "2026-08-19",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3264-25",
@@ -1841,7 +1841,7 @@
       "phase": "Milling",
       "startDate": "2026-09-01",
       "endDate": "2026-09-01",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4152-26",
@@ -1851,7 +1851,7 @@
       "phase": "Milling",
       "startDate": "2026-08-31",
       "endDate": "2026-08-31",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4089-26",
@@ -3481,7 +3481,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-08-10",
       "endDate": "2026-08-10",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3481-25",
