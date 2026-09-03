@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T19:22:06+00:00",
+  "generatedAt": "2026-09-03T19:32:10+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 383,
   "events": [
@@ -681,7 +681,7 @@
       "phase": "Paving",
       "startDate": "2026-08-28",
       "endDate": "2026-08-28",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4017-26",
@@ -691,7 +691,7 @@
       "phase": "Paving",
       "startDate": "2026-08-31",
       "endDate": "2026-08-31",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4013-26",
@@ -1681,7 +1681,7 @@
       "phase": "Milling",
       "startDate": "2026-08-26",
       "endDate": "2026-08-27",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "FJ-0374-26",
