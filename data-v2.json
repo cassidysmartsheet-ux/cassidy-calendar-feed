@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-05T22:20:46+00:00",
+  "generatedAt": "2026-09-05T22:44:18+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 383,
+  "totalRows": 385,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1251,6 +1251,16 @@
       "phase": "Hand",
       "startDate": "2026-09-28",
       "endDate": "2026-09-28",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4161-26",
+      "client": "Tufts University",
+      "city": "Somerville",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-25",
       "status": "Scheduled"
     },
     {
@@ -3751,6 +3761,16 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-11-09",
       "endDate": "2026-11-11",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4161-26",
+      "client": "Tufts University",
+      "city": "Somerville",
+      "crew": "Reclaim/Grading",
+      "phase": "Reclaim/Grading",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-24",
       "status": "Scheduled"
     },
     {
