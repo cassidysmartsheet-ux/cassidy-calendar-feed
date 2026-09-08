@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-08T18:03:26+00:00",
+  "generatedAt": "2026-09-08T21:08:23+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 385,
+  "totalRows": 383,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2964,16 +2964,6 @@
       "status": "Scheduled"
     },
     {
-      "jobNumber": "3843-26",
-      "client": "JLL - 2027 budget",
-      "city": "Marlborough",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-05",
-      "status": "Scheduled"
-    },
-    {
       "jobNumber": "FJ-0539-26",
       "client": "MT Mayo Corp",
       "city": "Wakefield",
@@ -3721,16 +3711,6 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-11-05",
       "endDate": "2026-11-06",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3843-26",
-      "client": "JLL - 2027 budget",
-      "city": "Marlborough",
-      "crew": "Reclaim/Grading",
-      "phase": "Pulverizing",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-03",
       "status": "Scheduled"
     },
     {
