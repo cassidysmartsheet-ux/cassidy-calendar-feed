@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T13:55:01+00:00",
+  "generatedAt": "2026-09-09T14:00:04+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 383,
+  "totalRows": 384,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -872,6 +872,16 @@
       "startDate": "2026-07-24",
       "endDate": "2026-07-24",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "3712-26",
+      "client": "Intergrated Site & Development",
+      "city": "Sunapee",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-25",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "3264-25",
@@ -3439,8 +3449,8 @@
       "city": "Sunapee",
       "crew": "Reclaim/Grading",
       "phase": "Reclaim/Grading",
-      "startDate": "2026-09-25",
-      "endDate": "2026-09-25",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-18",
       "status": "Scheduled"
     },
     {
