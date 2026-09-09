@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T18:12:57+00:00",
+  "generatedAt": "2026-09-09T18:33:03+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 384,
+  "totalRows": 386,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1362,6 +1362,26 @@
       "startDate": "2026-09-03",
       "endDate": "2026-09-03",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "FJ-0547-26",
+      "client": "Nordblom",
+      "city": "Burlington",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-10",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "FJ-0547-26",
+      "client": "Nordblom",
+      "city": "Burlington",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-03",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "3194-25",
