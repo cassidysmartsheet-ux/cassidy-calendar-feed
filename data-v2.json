@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T18:43:09+00:00",
+  "generatedAt": "2026-09-09T18:48:12+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 387,
   "events": [
@@ -1011,6 +1011,16 @@
       "phase": "Paving",
       "startDate": "2026-09-29",
       "endDate": "2026-09-30",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3944-26",
+      "client": "JJ Phelan",
+      "city": "Dorchester",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-15",
       "status": "Scheduled"
     },
     {
@@ -2764,6 +2774,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "3981-26",
+      "client": "City Sealcoating",
+      "city": "Leominster",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-15",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3445-25",
       "client": "JLL",
       "city": "Wilmington",
@@ -2822,16 +2842,6 @@
       "startDate": "2026-08-03",
       "endDate": "2026-08-06",
       "status": "Complete"
-    },
-    {
-      "jobNumber": "3944-26",
-      "client": "JJ Phelan",
-      "city": "Dorchester",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-09-15",
-      "endDate": "2026-09-15",
-      "status": "Scheduled"
     },
     {
       "jobNumber": "FJ-0482-26",
@@ -3822,16 +3832,6 @@
       "startDate": "2026-05-15",
       "endDate": "2026-05-15",
       "status": "Complete"
-    },
-    {
-      "jobNumber": "3981-26",
-      "client": "City Sealcoating",
-      "city": "Leominster",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-09-24",
-      "endDate": "2026-09-24",
-      "status": "Scheduled"
     },
     {
       "jobNumber": "3981-26",
