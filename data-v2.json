@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T13:34:52+00:00",
+  "generatedAt": "2026-09-09T13:39:54+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 384,
+  "totalRows": 382,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -3441,26 +3441,6 @@
       "phase": "Hand",
       "startDate": "2026-09-17",
       "endDate": "2026-09-17",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3884-26",
-      "client": "PMA (village Green 2026 Walks)",
-      "city": "North Andover",
-      "crew": "Reclaim/Grading",
-      "phase": "Hand",
-      "startDate": "2026-09-17",
-      "endDate": "2026-09-18",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3884-26",
-      "client": "PMA (village Green 2026 Walks)",
-      "city": "North Andover",
-      "crew": "Reclaim/Grading",
-      "phase": "Hand",
-      "startDate": "2026-09-21",
-      "endDate": "2026-09-21",
       "status": "Scheduled"
     },
     {
