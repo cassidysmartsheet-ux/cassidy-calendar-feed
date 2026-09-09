@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T23:21:23+00:00",
+  "generatedAt": "2026-09-09T23:26:26+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 391,
+  "totalRows": 392,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1411,6 +1411,16 @@
       "phase": "Hand",
       "startDate": "2026-10-02",
       "endDate": "2026-10-02",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4206-26",
+      "client": "RVK Realty",
+      "city": "North Billerica",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
       "status": "Scheduled"
     },
     {
