@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T22:00:53+00:00",
+  "generatedAt": "2026-09-09T22:10:57+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 388,
+  "totalRows": 389,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1401,6 +1401,16 @@
       "phase": "Hand",
       "startDate": "2026-10-03",
       "endDate": "2026-10-03",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4278-26",
+      "client": "",
+      "city": "Lexington",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-02",
       "status": "Scheduled"
     },
     {
