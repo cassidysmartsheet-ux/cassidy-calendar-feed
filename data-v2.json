@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T18:33:03+00:00",
+  "generatedAt": "2026-09-09T18:38:06+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 386,
+  "totalRows": 387,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -899,8 +899,18 @@
       "city": "North Billerica",
       "crew": "Hand",
       "phase": "Paving",
-      "startDate": "2026-09-10",
+      "startDate": "2026-09-11",
       "endDate": "2026-09-11",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3260-25",
+      "client": "JLL- north Billerica",
+      "city": "North Billerica",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-14",
       "status": "Scheduled"
     },
     {
@@ -1251,16 +1261,6 @@
       "phase": "Paving",
       "startDate": "2026-10-22",
       "endDate": "2026-10-22",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "4224-26",
-      "client": "Western Earthworks LLC",
-      "city": "Fitchburg",
-      "crew": "Hand",
-      "phase": "Hand",
-      "startDate": "2026-09-14",
-      "endDate": "2026-09-14",
       "status": "Scheduled"
     },
     {
@@ -2991,6 +2991,16 @@
       "phase": "Paving",
       "startDate": "2026-08-06",
       "endDate": "2026-08-06",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4224-26",
+      "client": "Western Earthworks LLC",
+      "city": "Fitchburg",
+      "crew": "Paving",
+      "phase": "Hand",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-14",
       "status": "Scheduled"
     },
     {
