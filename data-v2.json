@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T19:08:18+00:00",
+  "generatedAt": "2026-09-09T19:13:20+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 387,
+  "totalRows": 388,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1082,6 +1082,16 @@
       "startDate": "2026-07-23",
       "endDate": "2026-07-23",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "4182-26",
+      "client": "Certified Safe Electric Inc",
+      "city": "Bedford",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-09-28",
+      "endDate": "2026-09-28",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4094-26",
