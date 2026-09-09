@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-09T13:39:54+00:00",
+  "generatedAt": "2026-09-09T13:44:57+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 382,
+  "totalRows": 383,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -252,6 +252,16 @@
       "startDate": "2026-05-14",
       "endDate": "2026-05-14",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "3814-26",
+      "client": "OESL Automotive USA LLC",
+      "city": "Somersworth",
+      "crew": "Hand",
+      "phase": "Pulverizing",
+      "startDate": "2026-09-17",
+      "endDate": "2026-09-17",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "FJ-0292-26",
