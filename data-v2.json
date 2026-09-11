@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T19:37:51+00:00",
+  "generatedAt": "2026-09-11T19:42:54+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 392,
   "events": [
@@ -874,6 +874,16 @@
       "status": "Complete"
     },
     {
+      "jobNumber": "3981-26",
+      "client": "City Sealcoating",
+      "city": "Leominster",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-09-15",
+      "endDate": "2026-09-15",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3712-26",
       "client": "Intergrated Site & Development",
       "city": "Sunapee",
@@ -1281,6 +1291,16 @@
       "phase": "Paving",
       "startDate": "2026-10-22",
       "endDate": "2026-10-22",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4224-26",
+      "client": "Western Earthworks LLC",
+      "city": "Fitchburg",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-14",
       "status": "Scheduled"
     },
     {
@@ -2804,16 +2824,6 @@
       "status": "Scheduled"
     },
     {
-      "jobNumber": "3981-26",
-      "client": "City Sealcoating",
-      "city": "Leominster",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-09-15",
-      "endDate": "2026-09-15",
-      "status": "Scheduled"
-    },
-    {
       "jobNumber": "3445-25",
       "client": "JLL",
       "city": "Wilmington",
@@ -3031,16 +3041,6 @@
       "phase": "Paving",
       "startDate": "2026-08-06",
       "endDate": "2026-08-06",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "4224-26",
-      "client": "Western Earthworks LLC",
-      "city": "Fitchburg",
-      "crew": "Paving",
-      "phase": "Hand",
-      "startDate": "2026-09-14",
-      "endDate": "2026-09-14",
       "status": "Scheduled"
     },
     {
