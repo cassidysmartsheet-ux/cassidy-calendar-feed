@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-12T15:49:43+00:00",
+  "generatedAt": "2026-09-12T15:59:47+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 396,
+  "totalRows": 398,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1434,6 +1434,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4139-26",
+      "client": "Pierce Property Services, LLC",
+      "city": "Boston",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3194-25",
       "client": "Gemini - Greenbriar",
       "city": "North Reading",
@@ -2201,6 +2211,16 @@
       "phase": "Milling",
       "startDate": "2026-11-09",
       "endDate": "2026-11-09",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4139-26",
+      "client": "Pierce Property Services, LLC",
+      "city": "Boston",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-29",
       "status": "Scheduled"
     },
     {
