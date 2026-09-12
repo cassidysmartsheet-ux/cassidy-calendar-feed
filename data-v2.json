@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-12T16:09:51+00:00",
+  "generatedAt": "2026-09-12T16:23:33+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 400,
+  "totalRows": 402,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1434,6 +1434,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4187-26",
+      "client": "Katz Properties Retail",
+      "city": "Franklin",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-03",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "4371-26",
       "client": "EQT",
       "city": "Westborough",
@@ -2234,13 +2244,23 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4187-26",
+      "client": "Katz Properties Retail",
+      "city": "Franklin",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-29",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "4139-26",
       "client": "Pierce Property Services, LLC",
       "city": "Boston",
       "crew": "Milling",
       "phase": "Milling",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-29",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
       "status": "Scheduled"
     },
     {
