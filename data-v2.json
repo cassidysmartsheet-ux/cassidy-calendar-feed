@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T14:16:02+00:00",
+  "generatedAt": "2026-09-13T14:26:07+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 404,
   "events": [
@@ -1361,7 +1361,7 @@
       "phase": "Hand",
       "startDate": "2026-09-11",
       "endDate": "2026-09-11",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4280-26",
@@ -1429,9 +1429,9 @@
       "city": "North Billerica",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-10-30",
-      "endDate": "2026-10-30",
-      "status": "Scheduled"
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-11",
+      "status": "Complete"
     },
     {
       "jobNumber": "4187-26",
