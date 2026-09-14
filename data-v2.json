@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-14T22:07:16+00:00",
+  "generatedAt": "2026-09-14T22:20:27+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 404,
+  "totalRows": 405,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1149,8 +1149,8 @@
       "city": "Worcester",
       "crew": "Hand",
       "phase": "Paving",
-      "startDate": "2026-11-04",
-      "endDate": "2026-11-04",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-17",
       "status": "Scheduled"
     },
     {
@@ -3819,8 +3819,8 @@
       "city": "Worcester",
       "crew": "Reclaim/Grading",
       "phase": "Reclaim/Grading",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-03",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-13",
       "status": "Scheduled"
     },
     {
@@ -3921,6 +3921,16 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-11-05",
       "endDate": "2026-11-06",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3843-26",
+      "client": "JLL - 2027 budget",
+      "city": "Marlborough",
+      "crew": "Reclaim/Grading",
+      "phase": "Pulverizing",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-03",
       "status": "Scheduled"
     },
     {
