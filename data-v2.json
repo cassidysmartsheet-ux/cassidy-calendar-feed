@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T15:14:03+00:00",
+  "generatedAt": "2026-09-21T15:34:09+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 406,
+  "totalRows": 407,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -219,8 +219,8 @@
       "city": "Allston",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-01",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
       "status": "Scheduled"
     },
     {
@@ -569,8 +569,8 @@
       "city": "Tewksbury",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-10-02",
-      "endDate": "2026-10-02",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
       "status": "Scheduled"
     },
     {
@@ -1351,6 +1351,16 @@
       "phase": "Hand",
       "startDate": "2026-11-09",
       "endDate": "2026-11-11",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3850-26",
+      "client": "C White Marine",
+      "city": "Beverly",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-01",
       "status": "Scheduled"
     },
     {
