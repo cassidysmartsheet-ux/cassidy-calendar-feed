@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T16:34:27+00:00",
+  "generatedAt": "2026-09-21T16:39:29+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 407,
+  "totalRows": 406,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -3722,16 +3722,6 @@
       "startDate": "2026-08-10",
       "endDate": "2026-08-10",
       "status": "Complete"
-    },
-    {
-      "jobNumber": "3481-25",
-      "client": "Nellys Construction",
-      "city": "Wilmington",
-      "crew": "Reclaim/Grading",
-      "phase": "Reclaim/Grading",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-06",
-      "status": "Scheduled"
     },
     {
       "jobNumber": "3863-26",
