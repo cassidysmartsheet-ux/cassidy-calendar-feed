@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T19:00:11+00:00",
+  "generatedAt": "2026-09-21T19:20:18+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 406,
+  "totalRows": 408,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1504,6 +1504,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4297-26",
+      "client": "Greystar Property Mangement",
+      "city": "Marlborough",
+      "crew": "Hand",
+      "phase": "Milling",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3194-25",
       "client": "Gemini - Greenbriar",
       "city": "North Reading",
@@ -2311,6 +2321,16 @@
       "phase": "Milling",
       "startDate": "2026-11-12",
       "endDate": "2026-11-12",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4298-26",
+      "client": "Greystar Property Mangement",
+      "city": "Marlborough",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-30",
       "status": "Scheduled"
     },
     {
