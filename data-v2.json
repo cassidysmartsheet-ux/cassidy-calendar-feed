@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T19:20:18+00:00",
+  "generatedAt": "2026-09-21T19:37:04+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 408,
+  "totalRows": 409,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1501,6 +1501,16 @@
       "phase": "Paving",
       "startDate": "2026-11-12",
       "endDate": "2026-11-12",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4283-26",
+      "client": "Equity Industrial Partners Corp.",
+      "city": "Cranston",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-02",
       "status": "Scheduled"
     },
     {
