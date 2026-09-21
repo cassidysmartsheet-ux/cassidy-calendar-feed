@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-21T19:37:04+00:00",
+  "generatedAt": "2026-09-21T19:47:08+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 409,
+  "totalRows": 411,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -3294,6 +3294,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "3482-25",
+      "client": "Wingate Companies",
+      "city": "Lynn",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-18",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "2994-25",
       "client": "Berkley",
       "city": "Stoughton",
@@ -4041,6 +4051,16 @@
       "phase": "Pulverizing",
       "startDate": "2026-11-12",
       "endDate": "2026-11-12",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3482-25",
+      "client": "Wingate Companies",
+      "city": "Lynn",
+      "crew": "Reclaim/Grading",
+      "phase": "Pulverizing",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-16",
       "status": "Scheduled"
     },
     {
