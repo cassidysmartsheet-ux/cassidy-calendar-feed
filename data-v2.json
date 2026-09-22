@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T15:58:17+00:00",
+  "generatedAt": "2026-09-22T16:03:19+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 410,
   "events": [
@@ -889,8 +889,18 @@
       "city": "Leominster",
       "crew": "Hand",
       "phase": "Paving",
-      "startDate": "2026-09-29",
-      "endDate": "2026-09-29",
+      "startDate": "2026-09-30",
+      "endDate": "2026-09-30",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3981-26",
+      "client": "City Sealcoating",
+      "city": "Leominster",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-01",
       "status": "Scheduled"
     },
     {
@@ -2964,16 +2974,6 @@
       "status": "Scheduled"
     },
     {
-      "jobNumber": "3981-26",
-      "client": "City Sealcoating",
-      "city": "Leominster",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-09-28",
-      "endDate": "2026-09-28",
-      "status": "Scheduled"
-    },
-    {
       "jobNumber": "3445-25",
       "client": "JLL",
       "city": "Wilmington",
@@ -3699,8 +3699,8 @@
       "city": "Leominster",
       "crew": "Reclaim/Grading",
       "phase": "Reclaim/Grading",
-      "startDate": "2026-09-30",
-      "endDate": "2026-10-02",
+      "startDate": "2026-09-28",
+      "endDate": "2026-09-30",
       "status": "Scheduled"
     },
     {
