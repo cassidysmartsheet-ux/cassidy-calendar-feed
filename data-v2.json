@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-22T15:43:09+00:00",
+  "generatedAt": "2026-09-22T15:48:12+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 411,
+  "totalRows": 410,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -3699,8 +3699,8 @@
       "city": "Leominster",
       "crew": "Reclaim/Grading",
       "phase": "Reclaim/Grading",
-      "startDate": "2026-09-28",
-      "endDate": "2026-09-30",
+      "startDate": "2026-09-30",
+      "endDate": "2026-10-02",
       "status": "Scheduled"
     },
     {
@@ -3731,16 +3731,6 @@
       "phase": "Hand",
       "startDate": "2026-09-17",
       "endDate": "2026-09-17",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3996-26",
-      "client": "",
-      "city": "Everett",
-      "crew": "Reclaim/Grading",
-      "phase": "Reclaim/Grading",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-02",
       "status": "Scheduled"
     },
     {
