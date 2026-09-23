@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-23T12:50:15+00:00",
+  "generatedAt": "2026-09-23T13:05:21+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 411,
+  "totalRows": 413,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1291,6 +1291,16 @@
       "phase": "Paving",
       "startDate": "2026-10-22",
       "endDate": "2026-10-22",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4224-26",
+      "client": "Western Earthworks LLC",
+      "city": "Fitchburg",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-01",
       "status": "Scheduled"
     },
     {
@@ -3211,6 +3221,16 @@
       "phase": "Paving",
       "startDate": "2026-10-26",
       "endDate": "2026-10-29",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4224-26",
+      "client": "Western Earthworks LLC",
+      "city": "Fitchburg",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-10-07",
+      "endDate": "2026-10-07",
       "status": "Scheduled"
     },
     {
