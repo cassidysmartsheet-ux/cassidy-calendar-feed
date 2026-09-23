@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-23T12:40:09+00:00",
+  "generatedAt": "2026-09-23T12:45:12+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 409,
+  "totalRows": 410,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -939,8 +939,8 @@
       "city": "North Andover",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-09-18",
-      "endDate": "2026-09-18",
+      "startDate": "2026-09-30",
+      "endDate": "2026-09-30",
       "status": "Scheduled"
     },
     {
@@ -3031,6 +3031,16 @@
       "phase": "Paving",
       "startDate": "2026-09-16",
       "endDate": "2026-09-18",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3258-25",
+      "client": "JLL- north Billerica",
+      "city": "North Billerica",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-09-25",
+      "endDate": "2026-09-25",
       "status": "Scheduled"
     },
     {
