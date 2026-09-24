@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T14:35:52+00:00",
+  "generatedAt": "2026-09-24T14:41:01+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 418,
   "events": [
@@ -1469,8 +1469,8 @@
       "city": "Franklin",
       "crew": "Hand",
       "phase": "Paving",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-03",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-02",
       "status": "Scheduled"
     },
     {
@@ -1499,8 +1499,8 @@
       "city": "Cranston",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-11-02",
-      "endDate": "2026-11-02",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-03",
       "status": "Scheduled"
     },
     {
@@ -2309,8 +2309,8 @@
       "city": "Franklin",
       "crew": "Milling",
       "phase": "Milling",
-      "startDate": "2026-10-29",
-      "endDate": "2026-10-29",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-01",
       "status": "Scheduled"
     },
     {
