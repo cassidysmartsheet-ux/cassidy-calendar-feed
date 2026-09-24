@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-24T14:41:01+00:00",
+  "generatedAt": "2026-09-24T14:46:05+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 418,
+  "totalRows": 420,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -569,8 +569,8 @@
       "city": "Tewksbury",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-11-04",
-      "endDate": "2026-11-04",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-12",
       "status": "Scheduled"
     },
     {
@@ -2334,6 +2334,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4317-26",
+      "client": "Equity Industrial Partners Corp",
+      "city": "Rumford",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-26",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "4298-26",
       "client": "Greystar Property Mangement",
       "city": "Marlborough",
@@ -3341,6 +3351,16 @@
       "phase": "Paving",
       "startDate": "2026-11-11",
       "endDate": "2026-11-11",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4317-26",
+      "client": "Equity Industrial Partners Corp",
+      "city": "Rumford",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
       "status": "Scheduled"
     },
     {
