@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-24T13:40:28+00:00",
+  "generatedAt": "2026-09-24T13:45:31+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 416,
+  "totalRows": 417,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1521,6 +1521,16 @@
       "phase": "Milling",
       "startDate": "2026-10-30",
       "endDate": "2026-10-30",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4073-26",
+      "client": "Opportunity works",
+      "city": "Newburyport",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-06",
       "status": "Scheduled"
     },
     {
