@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T00:14:43+00:00",
+  "generatedAt": "2026-09-24T00:19:46+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 415,
   "events": [
@@ -281,7 +281,7 @@
       "phase": "Paving",
       "startDate": "2026-09-23",
       "endDate": "2026-09-23",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3870-26",
@@ -3521,7 +3521,7 @@
       "phase": "Hand",
       "startDate": "2026-09-04",
       "endDate": "2026-09-04",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3853-26",
