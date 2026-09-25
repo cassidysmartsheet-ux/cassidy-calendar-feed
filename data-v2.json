@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T21:03:50+00:00",
+  "generatedAt": "2026-09-25T21:18:57+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 422,
+  "totalRows": 424,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1521,6 +1521,16 @@
       "phase": "Paving",
       "startDate": "2026-11-04",
       "endDate": "2026-11-04",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4203-26",
+      "client": "Nellys Construction",
+      "city": "Merrimack",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-20",
       "status": "Scheduled"
     },
     {
@@ -4171,6 +4181,16 @@
       "phase": "Pulverizing",
       "startDate": "2026-11-16",
       "endDate": "2026-11-16",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4203-26",
+      "client": "Nellys Construction",
+      "city": "Merrimack",
+      "crew": "Reclaim/Grading",
+      "phase": "Reclaim/Grading",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-18",
       "status": "Scheduled"
     },
     {
