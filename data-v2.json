@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T21:18:57+00:00",
+  "generatedAt": "2026-09-25T21:29:01+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 424,
+  "totalRows": 426,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1149,8 +1149,8 @@
       "city": "Worcester",
       "crew": "Hand",
       "phase": "Paving",
-      "startDate": "2026-11-17",
-      "endDate": "2026-11-17",
+      "startDate": "2026-12-31",
+      "endDate": "2026-12-31",
       "status": "Scheduled"
     },
     {
@@ -1542,6 +1542,16 @@
       "startDate": "2026-10-06",
       "endDate": "2026-10-06",
       "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4210-26",
+      "client": "Wingate",
+      "city": "Nashua",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-17",
+      "status": ""
     },
     {
       "jobNumber": "3194-25",
@@ -2402,6 +2412,16 @@
       "startDate": "2026-11-05",
       "endDate": "2026-11-06",
       "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4210-26",
+      "client": "Wingate",
+      "city": "Nashua",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-16",
+      "status": ""
     },
     {
       "jobNumber": "3112-25",
@@ -3999,8 +4019,8 @@
       "city": "Worcester",
       "crew": "Reclaim/Grading",
       "phase": "Reclaim/Grading",
-      "startDate": "2026-11-13",
-      "endDate": "2026-11-13",
+      "startDate": "2026-12-31",
+      "endDate": "2026-12-31",
       "status": "Scheduled"
     },
     {
