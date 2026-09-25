@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-25T20:43:42+00:00",
+  "generatedAt": "2026-09-25T21:03:50+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 420,
+  "totalRows": 422,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1514,6 +1514,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4373-26",
+      "client": "JLL - Franklin",
+      "city": "Wilmington",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "4073-26",
       "client": "Opportunity works",
       "city": "Newburyport",
@@ -2351,6 +2361,16 @@
       "phase": "Milling",
       "startDate": "2026-10-30",
       "endDate": "2026-10-30",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4373-26",
+      "client": "JLL - Franklin",
+      "city": "Wilmington",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-02",
       "status": "Scheduled"
     },
     {
