@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T14:02:48+00:00",
+  "generatedAt": "2026-09-28T14:23:16+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 426,
   "events": [
@@ -1079,8 +1079,8 @@
       "city": "Bedford",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-09-28",
-      "endDate": "2026-09-28",
+      "startDate": "2026-09-29",
+      "endDate": "2026-09-29",
       "status": "Scheduled"
     },
     {
@@ -1429,8 +1429,8 @@
       "city": "Burlington",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-03",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-10",
       "status": "Scheduled"
     },
     {
