@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T16:38:07+00:00",
+  "generatedAt": "2026-10-02T16:43:10+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 426,
   "events": [
@@ -1531,6 +1531,16 @@
       "phase": "Paving",
       "startDate": "2026-11-19",
       "endDate": "2026-11-20",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4357-26",
+      "client": "Eastport - Peabody",
+      "city": "Haverhill",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-08",
       "status": "Scheduled"
     },
     {
@@ -3421,16 +3431,6 @@
       "phase": "Paving",
       "startDate": "2026-11-18",
       "endDate": "2026-11-18",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "4357-26",
-      "client": "Eastport - Peabody",
-      "city": "Haverhill",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-10-08",
-      "endDate": "2026-10-08",
       "status": "Scheduled"
     },
     {
