@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T16:43:10+00:00",
+  "generatedAt": "2026-10-02T16:48:12+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 426,
   "events": [
@@ -1102,6 +1102,16 @@
       "startDate": "2026-08-25",
       "endDate": "2026-08-25",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "4159-26",
+      "client": "Nevex",
+      "city": "Essex",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-09",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4130-26",
@@ -3231,16 +3241,6 @@
       "phase": "Paving",
       "startDate": "2026-09-30",
       "endDate": "2026-10-03",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "4159-26",
-      "client": "Nevex",
-      "city": "Essex",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
       "status": "Scheduled"
     },
     {
