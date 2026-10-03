@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T15:46:05+00:00",
+  "generatedAt": "2026-10-03T15:51:07+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 426,
+  "totalRows": 428,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2444,6 +2444,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4427-26",
+      "client": "Aldo Paving",
+      "city": "Lexington",
+      "crew": "Milling",
+      "phase": "Hand",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-02",
+      "status": "Complete"
+    },
+    {
       "jobNumber": "3112-25",
       "client": "CW Contracting",
       "city": "West Roxbury",
@@ -3452,6 +3462,16 @@
       "startDate": "2026-11-09",
       "endDate": "2026-11-10",
       "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4417-26",
+      "client": "JT Lynch Construction",
+      "city": "Waltham",
+      "crew": "Pulverizing",
+      "phase": "Pulverizing",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-02",
+      "status": "Complete"
     },
     {
       "jobNumber": "2994-25",
