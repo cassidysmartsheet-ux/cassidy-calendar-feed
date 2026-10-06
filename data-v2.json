@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-06T18:12:04+00:00",
+  "generatedAt": "2026-10-06T18:17:08+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 428,
+  "totalRows": 427,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1544,16 +1544,6 @@
       "status": "Scheduled"
     },
     {
-      "jobNumber": "4357-26",
-      "client": "Eastport - Peabody",
-      "city": "Haverhill",
-      "crew": "Hand",
-      "phase": "Paving",
-      "startDate": "2026-10-22",
-      "endDate": "2026-10-22",
-      "status": "Scheduled"
-    },
-    {
       "jobNumber": "4073-26",
       "client": "Opportunity works",
       "city": "Newburyport",
@@ -2361,16 +2351,6 @@
       "phase": "Milling",
       "startDate": "2026-11-01",
       "endDate": "2026-11-01",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "4275-26",
-      "client": "Golini Brothers",
-      "city": "Medford",
-      "crew": "Milling",
-      "phase": "Milling",
-      "startDate": "2026-10-22",
-      "endDate": "2026-10-22",
       "status": "Scheduled"
     },
     {
@@ -3441,6 +3421,16 @@
       "phase": "Paving",
       "startDate": "2026-11-18",
       "endDate": "2026-11-18",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4357-26",
+      "client": "Eastport - Peabody",
+      "city": "Haverhill",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-22",
       "status": "Scheduled"
     },
     {
