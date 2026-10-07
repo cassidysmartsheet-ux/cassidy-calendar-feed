@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T18:38:05+00:00",
+  "generatedAt": "2026-10-07T18:43:11+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 427,
   "events": [
@@ -2401,7 +2401,7 @@
       "phase": "Milling",
       "startDate": "2026-10-02",
       "endDate": "2026-10-02",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3720-26",
@@ -3441,7 +3441,7 @@
       "phase": "Milling",
       "startDate": "2026-10-06",
       "endDate": "2026-10-06",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3720-26",
