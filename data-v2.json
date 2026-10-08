@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-08T22:20:34+00:00",
+  "generatedAt": "2026-10-08T22:25:37+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 427,
+  "totalRows": 425,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2304,16 +2304,6 @@
       "status": "Complete"
     },
     {
-      "jobNumber": "FJ-0539-26",
-      "client": "MT Mayo Corp",
-      "city": "Wakefield",
-      "crew": "Milling",
-      "phase": "Milling",
-      "startDate": "2026-10-20",
-      "endDate": "2026-10-20",
-      "status": "Scheduled"
-    },
-    {
       "jobNumber": "4234-26",
       "client": "Ocean State Job Lot",
       "city": "",
@@ -3321,16 +3311,6 @@
       "phase": "Paving",
       "startDate": "2026-11-03",
       "endDate": "2026-11-05",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "FJ-0539-26",
-      "client": "MT Mayo Corp",
-      "city": "Wakefield",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-10-23",
-      "endDate": "2026-10-23",
       "status": "Scheduled"
     },
     {
