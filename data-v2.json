@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:19:43+00:00",
+  "generatedAt": "2026-10-09T15:29:47+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 425,
   "events": [
@@ -1271,16 +1271,6 @@
       "phase": "Paving",
       "startDate": "2026-11-05",
       "endDate": "2026-11-06",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3801-26",
-      "client": "Superior Sealcoating",
-      "city": "Burlington",
-      "crew": "Hand",
-      "phase": "Paving",
-      "startDate": "2026-10-22",
-      "endDate": "2026-10-22",
       "status": "Scheduled"
     },
     {
@@ -3294,6 +3284,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "3801-26",
+      "client": "Superior Sealcoating",
+      "city": "Burlington",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-22",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "FJ-0530-26",
       "client": "Cassidy landscape",
       "city": "billerica",
@@ -3409,8 +3409,8 @@
       "city": "Haverhill",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-10-22",
-      "endDate": "2026-10-22",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
       "status": "Scheduled"
     },
     {
