@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-10T15:45:17+00:00",
+  "generatedAt": "2026-10-10T16:00:22+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 426,
+  "totalRows": 427,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -3192,6 +3192,16 @@
       "startDate": "2026-09-09",
       "endDate": "2026-09-09",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "4094-26",
+      "client": "Prime Group - Shetland Park",
+      "city": "Salem",
+      "crew": "Paving",
+      "phase": "Hand",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-13",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4094-26",
