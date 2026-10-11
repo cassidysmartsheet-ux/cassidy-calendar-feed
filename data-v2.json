@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T18:50:45+00:00",
+  "generatedAt": "2026-10-11T18:58:42+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 427,
   "events": [
@@ -3381,7 +3381,7 @@
       "phase": "Paving",
       "startDate": "2026-10-10",
       "endDate": "2026-10-10",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3581-26",
@@ -4181,7 +4181,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-10-09",
       "endDate": "2026-10-09",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4161-26",
