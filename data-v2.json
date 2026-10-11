@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T18:58:42+00:00",
+  "generatedAt": "2026-10-11T19:03:44+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 427,
   "events": [
@@ -1111,7 +1111,7 @@
       "phase": "Paving",
       "startDate": "2026-10-09",
       "endDate": "2026-10-09",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4130-26",
@@ -1291,7 +1291,7 @@
       "phase": "Paving",
       "startDate": "2026-10-01",
       "endDate": "2026-10-01",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4224-26",
@@ -1301,7 +1301,7 @@
       "phase": "Paving",
       "startDate": "2026-10-07",
       "endDate": "2026-10-07",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4224-26",
@@ -1311,7 +1311,7 @@
       "phase": "Hand",
       "startDate": "2026-09-14",
       "endDate": "2026-09-14",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4161-26",
@@ -3951,7 +3951,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-10-08",
       "endDate": "2026-10-08",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3710-26",
@@ -4151,7 +4151,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-09-09",
       "endDate": "2026-09-09",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "2845-25",
