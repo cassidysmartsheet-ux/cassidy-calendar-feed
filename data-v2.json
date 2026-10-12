@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T17:32:49+00:00",
+  "generatedAt": "2026-10-12T17:37:51+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 431,
   "events": [
@@ -1561,6 +1561,16 @@
       "phase": "Paving",
       "startDate": "2026-11-17",
       "endDate": "2026-11-17",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4407-26",
+      "client": "Keypoint Partners",
+      "city": "Ashland",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
       "status": "Scheduled"
     },
     {
@@ -3471,16 +3481,6 @@
       "phase": "Paving",
       "startDate": "2026-11-09",
       "endDate": "2026-11-10",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "4407-26",
-      "client": "Keypoint Partners",
-      "city": "Ashland",
-      "crew": "Paving",
-      "phase": "Hand",
-      "startDate": "2026-10-23",
-      "endDate": "2026-10-23",
       "status": "Scheduled"
     },
     {
