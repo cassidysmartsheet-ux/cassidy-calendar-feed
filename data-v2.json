@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T18:13:05+00:00",
+  "generatedAt": "2026-10-12T18:23:09+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 433,
   "events": [
@@ -1649,8 +1649,8 @@
       "city": "Methuen",
       "crew": "Milling",
       "phase": "Milling",
-      "startDate": "2026-11-23",
-      "endDate": "2026-11-23",
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-01",
       "status": "Scheduled"
     },
     {
@@ -2389,8 +2389,8 @@
       "city": "Rumford",
       "crew": "Milling",
       "phase": "Milling",
-      "startDate": "2026-10-26",
-      "endDate": "2026-10-26",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
       "status": "Scheduled"
     },
     {
@@ -2579,8 +2579,8 @@
       "city": "Methuen",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-11-25",
-      "endDate": "2026-11-25",
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-01",
       "status": "Scheduled"
     },
     {
@@ -3209,8 +3209,8 @@
       "city": "Milford",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-11-06",
-      "endDate": "2026-11-06",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-19",
       "status": "Scheduled"
     },
     {
@@ -3459,8 +3459,8 @@
       "city": "Rumford",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-11-04",
-      "endDate": "2026-11-04",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-06",
       "status": "Scheduled"
     },
     {
@@ -3649,8 +3649,8 @@
       "city": "Methuen",
       "crew": "Reclaim/Grading",
       "phase": "Reclaim/Grading",
-      "startDate": "2026-11-19",
-      "endDate": "2026-11-20",
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-02",
       "status": "Scheduled"
     },
     {
