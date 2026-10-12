@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T12:46:04+00:00",
+  "generatedAt": "2026-10-12T13:01:09+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 428,
+  "totalRows": 430,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2434,6 +2434,16 @@
       "status": "Complete"
     },
     {
+      "jobNumber": "4301-26",
+      "client": "Ocean State Job Lot",
+      "city": "Middleborough",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-13",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3112-25",
       "client": "CW Contracting",
       "city": "West Roxbury",
@@ -3461,6 +3471,16 @@
       "phase": "Paving",
       "startDate": "2026-11-09",
       "endDate": "2026-11-10",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4301-26",
+      "client": "Ocean State Job Lot",
+      "city": "Middleborough",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-17",
       "status": "Scheduled"
     },
     {
