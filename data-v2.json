@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-12T12:31:00+00:00",
+  "generatedAt": "2026-10-12T12:46:04+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 427,
+  "totalRows": 428,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1561,6 +1561,16 @@
       "phase": "Paving",
       "startDate": "2026-11-17",
       "endDate": "2026-11-17",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4426-26",
+      "client": "Honda Westborough",
+      "city": "Westborough",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-16",
       "status": "Scheduled"
     },
     {
