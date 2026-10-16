@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-16T16:41:03+00:00",
+  "generatedAt": "2026-10-16T17:01:11+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 432,
+  "totalRows": 433,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -4321,6 +4321,16 @@
       "phase": "Pulverizing",
       "startDate": "2026-11-02",
       "endDate": "2026-11-04",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4319-26",
+      "client": "Schochet",
+      "city": "N Attleboro",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-03",
       "status": "Scheduled"
     }
   ]
