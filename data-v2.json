@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-19T18:29:50+00:00",
+  "generatedAt": "2026-10-19T18:34:52+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 436,
+  "totalRows": 437,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -3219,8 +3219,8 @@
       "city": "Milford",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-11-19",
-      "endDate": "2026-11-19",
+      "startDate": "2026-12-08",
+      "endDate": "2026-12-08",
       "status": "Scheduled"
     },
     {
@@ -3999,8 +3999,8 @@
       "city": "Milford",
       "crew": "Reclaim/Grading",
       "phase": "Reclaim/Grading",
-      "startDate": "2026-11-02",
-      "endDate": "2026-11-02",
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-07",
       "status": "Scheduled"
     },
     {
@@ -4301,6 +4301,16 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-11-18",
       "endDate": "2026-11-18",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3876-26",
+      "client": "CW Contracting",
+      "city": "Malden",
+      "crew": "Reclaim/Grading",
+      "phase": "Reclaim/Grading",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-13",
       "status": "Scheduled"
     },
     {
