@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T15:08:41+00:00",
+  "generatedAt": "2026-10-19T15:18:45+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 434,
   "events": [
@@ -1480,7 +1480,7 @@
       "crew": "Hand",
       "phase": "Paving",
       "startDate": "2026-11-02",
-      "endDate": "2026-11-02",
+      "endDate": "2026-11-03",
       "status": "Scheduled"
     },
     {
