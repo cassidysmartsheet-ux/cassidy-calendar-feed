@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-19T17:34:28+00:00",
+  "generatedAt": "2026-10-19T17:39:32+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 434,
+  "totalRows": 436,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2474,6 +2474,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4308-26",
+      "client": "Dino Paving",
+      "city": "Marblehead",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-10-26",
+      "endDate": "2026-10-26",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3112-25",
       "client": "CW Contracting",
       "city": "West Roxbury",
@@ -4341,6 +4351,16 @@
       "phase": "Hand",
       "startDate": "2026-11-03",
       "endDate": "2026-11-03",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3876-26",
+      "client": "CW Contracting",
+      "city": "Malden",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-19",
       "status": "Scheduled"
     }
   ]
