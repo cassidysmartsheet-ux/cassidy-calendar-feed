@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T18:19:45+00:00",
+  "generatedAt": "2026-10-19T18:29:50+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 436,
   "events": [
@@ -3524,6 +3524,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "3876-26",
+      "client": "CW Contracting",
+      "city": "Malden",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-19",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "4417-26",
       "client": "JT Lynch Construction",
       "city": "Waltham",
@@ -4351,16 +4361,6 @@
       "phase": "Hand",
       "startDate": "2026-11-03",
       "endDate": "2026-11-03",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "3876-26",
-      "client": "CW Contracting",
-      "city": "Malden",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-11-19",
-      "endDate": "2026-11-19",
       "status": "Scheduled"
     }
   ]
