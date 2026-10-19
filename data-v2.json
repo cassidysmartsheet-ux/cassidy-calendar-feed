@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-19T13:59:45+00:00",
+  "generatedAt": "2026-10-19T14:09:51+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 433,
+  "totalRows": 434,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2461,6 +2461,16 @@
       "phase": "Milling",
       "startDate": "2026-11-10",
       "endDate": "2026-11-10",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4443-26",
+      "client": "Golini Brothers",
+      "city": "Wilmington",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-29",
       "status": "Scheduled"
     },
     {
