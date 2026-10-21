@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T19:10:12+00:00",
+  "generatedAt": "2026-10-21T19:25:18+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 436,
   "events": [
@@ -839,8 +839,8 @@
       "city": "Southborough",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-10-28",
-      "endDate": "2026-10-28",
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-01",
       "status": "Scheduled"
     },
     {
@@ -1539,8 +1539,8 @@
       "city": "Newburyport",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-10-22",
-      "endDate": "2026-10-22",
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
       "status": "Scheduled"
     },
     {
@@ -1959,8 +1959,8 @@
       "city": "Southborough",
       "crew": "Milling",
       "phase": "Milling",
-      "startDate": "2026-10-27",
-      "endDate": "2026-10-27",
+      "startDate": "2027-01-01",
+      "endDate": "2027-01-01",
       "status": "Scheduled"
     },
     {
