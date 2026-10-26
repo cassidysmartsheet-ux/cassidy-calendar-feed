@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-26T16:11:44+00:00",
+  "generatedAt": "2026-10-26T16:26:48+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 436,
+  "totalRows": 437,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -4151,6 +4151,16 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-10-19",
       "endDate": "2026-10-20",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4083-26",
+      "client": "South Shore Plaza",
+      "city": "Braintree",
+      "crew": "Reclaim/Grading",
+      "phase": "Pulverizing",
+      "startDate": "2026-10-27",
+      "endDate": "2026-10-27",
       "status": "Scheduled"
     },
     {
