@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-28T13:51:53+00:00",
+  "generatedAt": "2026-10-28T14:01:56+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 439,
+  "totalRows": 440,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -21,6 +21,16 @@
       "phase": "Crackfill",
       "startDate": "2026-11-26",
       "endDate": "2026-11-28",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4282-26",
+      "client": "G and M New England",
+      "city": "Wellesley",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-09",
       "status": "Scheduled"
     },
     {
@@ -1342,6 +1352,16 @@
       "startDate": "2026-09-24",
       "endDate": "2026-09-24",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "4282-26",
+      "client": "G and M New England",
+      "city": "Wellesley",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-06",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4277-26",
@@ -3392,16 +3412,6 @@
       "startDate": "2026-10-05",
       "endDate": "2026-10-05",
       "status": "Complete"
-    },
-    {
-      "jobNumber": "4282-26",
-      "client": "G and M New England",
-      "city": "Wellesley",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-11-06",
-      "endDate": "2026-11-06",
-      "status": "Scheduled"
     },
     {
       "jobNumber": "4234-26",
