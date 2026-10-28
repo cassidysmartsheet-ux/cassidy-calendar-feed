@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-28T12:26:06+00:00",
+  "generatedAt": "2026-10-28T12:31:09+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 438,
+  "totalRows": 439,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2484,6 +2484,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4282-26",
+      "client": "G and M New England",
+      "city": "Wellesley",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-04",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3112-25",
       "client": "CW Contracting",
       "city": "West Roxbury",
@@ -3389,8 +3399,8 @@
       "city": "Wellesley",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-05",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-06",
       "status": "Scheduled"
     },
     {
