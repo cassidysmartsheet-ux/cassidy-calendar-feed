@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-29T14:53:15+00:00",
+  "generatedAt": "2026-10-29T14:58:18+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 445,
+  "totalRows": 446,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1611,6 +1611,16 @@
       "phase": "Hand",
       "startDate": "2026-11-09",
       "endDate": "2026-11-09",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3603-26",
+      "client": "Sun Pharmacy",
+      "city": "Billerica",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-23",
       "status": "Scheduled"
     },
     {
