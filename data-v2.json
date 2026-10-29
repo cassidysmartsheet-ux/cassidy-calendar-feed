@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-29T16:34:07+00:00",
+  "generatedAt": "2026-10-29T16:54:12+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 449,
+  "totalRows": 450,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1592,6 +1592,16 @@
       "startDate": "2026-10-23",
       "endDate": "2026-10-23",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "4181-26",
+      "client": "Rake",
+      "city": "Medford",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-11-24",
+      "endDate": "2026-11-24",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4426-26",
