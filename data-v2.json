@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:35:35+00:00",
+  "generatedAt": "2026-10-29T17:55:40+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 450,
   "events": [
@@ -1251,7 +1251,7 @@
       "phase": "Paving",
       "startDate": "2026-10-23",
       "endDate": "2026-10-23",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3840-26",
@@ -1261,7 +1261,7 @@
       "phase": "Paving",
       "startDate": "2026-10-26",
       "endDate": "2026-10-28",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3279-25",
@@ -4231,7 +4231,7 @@
       "phase": "Pulverizing",
       "startDate": "2026-10-21",
       "endDate": "2026-10-23",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4083-26",
