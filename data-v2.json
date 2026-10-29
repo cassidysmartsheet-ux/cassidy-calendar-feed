@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-29T16:19:01+00:00",
+  "generatedAt": "2026-10-29T16:29:04+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 446,
+  "totalRows": 448,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1554,6 +1554,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4357-26",
+      "client": "Eastport - Peabody",
+      "city": "Haverhill",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "4073-26",
       "client": "Opportunity works",
       "city": "Newburyport",
@@ -2551,6 +2561,16 @@
       "phase": "Milling",
       "startDate": "2026-11-17",
       "endDate": "2026-11-17",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4357-26",
+      "client": "Eastport - Peabody",
+      "city": "Haverhill",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
       "status": "Scheduled"
     },
     {
@@ -3554,16 +3574,6 @@
       "status": "Scheduled"
     },
     {
-      "jobNumber": "4357-26",
-      "client": "Eastport - Peabody",
-      "city": "Haverhill",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-10-23",
-      "endDate": "2026-10-23",
-      "status": "Scheduled"
-    },
-    {
       "jobNumber": "4395-26",
       "client": "Sam Walkers",
       "city": "Bedford",
@@ -4381,6 +4391,16 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-11-18",
       "endDate": "2026-11-18",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4357-26",
+      "client": "Eastport - Peabody",
+      "city": "Haverhill",
+      "crew": "Reclaim/Grading",
+      "phase": "Paving",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
       "status": "Scheduled"
     },
     {
