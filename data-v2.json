@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T01:14:14+00:00",
+  "generatedAt": "2026-11-02T01:19:17+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 450,
   "events": [
@@ -581,7 +581,7 @@
       "phase": "Hand",
       "startDate": "2026-10-30",
       "endDate": "2026-10-30",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3794-26",
@@ -2351,7 +2351,7 @@
       "phase": "Milling",
       "startDate": "2026-10-19",
       "endDate": "2026-10-20",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4125-26",
@@ -3471,7 +3471,7 @@
       "phase": "Paving",
       "startDate": "2026-10-26",
       "endDate": "2026-10-29",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4125-26",
@@ -4241,7 +4241,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-10-13",
       "endDate": "2026-10-16",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4083-26",
@@ -4251,7 +4251,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-10-19",
       "endDate": "2026-10-20",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4083-26",
@@ -4261,7 +4261,7 @@
       "phase": "Pulverizing",
       "startDate": "2026-10-27",
       "endDate": "2026-10-27",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3279-25",
