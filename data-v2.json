@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T01:24:19+00:00",
+  "generatedAt": "2026-11-02T01:29:22+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 450,
   "events": [
@@ -231,7 +231,7 @@
       "phase": "Hand",
       "startDate": "2026-10-30",
       "endDate": "2026-10-30",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3758-26",
