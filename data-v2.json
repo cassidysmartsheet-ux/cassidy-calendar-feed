@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-02T18:51:40+00:00",
+  "generatedAt": "2026-11-02T19:06:44+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 451,
+  "totalRows": 452,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1581,6 +1581,16 @@
       "phase": "Paving",
       "startDate": "2026-11-17",
       "endDate": "2026-11-17",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4210-26",
+      "client": "Wingate",
+      "city": "Nashua",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-04",
       "status": "Scheduled"
     },
     {
