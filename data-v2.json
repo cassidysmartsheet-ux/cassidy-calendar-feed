@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-02T19:06:44+00:00",
+  "generatedAt": "2026-11-02T19:11:46+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 452,
+  "totalRows": 456,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1674,6 +1674,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "FJ-0595-26",
+      "client": "Christmas party",
+      "city": "saugus",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-04",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "3194-25",
       "client": "Gemini - Greenbriar",
       "city": "North Reading",
@@ -2591,6 +2601,16 @@
       "phase": "Milling",
       "startDate": "2026-11-17",
       "endDate": "2026-11-17",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "FJ-0595-26",
+      "client": "Christmas party",
+      "city": "saugus",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-04",
       "status": "Scheduled"
     },
     {
@@ -3654,6 +3674,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "FJ-0595-26",
+      "client": "Christmas party",
+      "city": "saugus",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-04",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "4417-26",
       "client": "JT Lynch Construction",
       "city": "Waltham",
@@ -4461,6 +4491,16 @@
       "phase": "Hand",
       "startDate": "2026-11-17",
       "endDate": "2026-11-17",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "FJ-0595-26",
+      "client": "Christmas party",
+      "city": "saugus",
+      "crew": "Reclaim/Grading",
+      "phase": "Reclaim/Grading",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-04",
       "status": "Scheduled"
     },
     {
