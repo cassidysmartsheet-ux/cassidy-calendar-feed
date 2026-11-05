@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T17:47:44+00:00",
+  "generatedAt": "2026-11-05T17:52:46+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 456,
   "events": [
@@ -4410,7 +4410,7 @@
       "crew": "Reclaim/Grading",
       "phase": "Reclaim/Grading",
       "startDate": "2026-11-10",
-      "endDate": "2026-11-13",
+      "endDate": "2026-11-12",
       "status": "Scheduled"
     },
     {
