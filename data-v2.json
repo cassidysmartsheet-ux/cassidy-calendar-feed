@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T18:17:54+00:00",
+  "generatedAt": "2026-11-05T18:27:57+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 456,
   "events": [
@@ -1429,8 +1429,8 @@
       "city": "Wilmington",
       "crew": "Hand",
       "phase": "Paving",
-      "startDate": "2026-11-13",
-      "endDate": "2026-11-13",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
       "status": "Scheduled"
     },
     {
@@ -3549,8 +3549,8 @@
       "city": "Wilmington",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-11-12",
-      "endDate": "2026-11-12",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-13",
       "status": "Scheduled"
     },
     {
@@ -3589,8 +3589,8 @@
       "city": "Exeter",
       "crew": "Paving",
       "phase": "Paving",
-      "startDate": "2026-11-13",
-      "endDate": "2026-11-13",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-17",
       "status": "Scheduled"
     },
     {
