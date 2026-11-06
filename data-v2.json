@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T17:31:01+00:00",
+  "generatedAt": "2026-11-06T17:36:04+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 457,
   "events": [
@@ -1522,6 +1522,16 @@
       "startDate": "2026-09-30",
       "endDate": "2026-09-30",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "4139-26",
+      "client": "Pierce Property Services, LLC",
+      "city": "Boston",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-11",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4297-26",
@@ -3591,16 +3601,6 @@
       "phase": "Paving",
       "startDate": "2026-11-17",
       "endDate": "2026-11-17",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "4139-26",
-      "client": "Pierce Property Services, LLC",
-      "city": "Boston",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-11-11",
-      "endDate": "2026-11-11",
       "status": "Scheduled"
     },
     {
