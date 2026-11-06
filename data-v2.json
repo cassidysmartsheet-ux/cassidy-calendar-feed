@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T18:51:36+00:00",
+  "generatedAt": "2026-11-06T19:11:43+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 457,
   "events": [
@@ -891,7 +891,7 @@
       "phase": "Paving",
       "startDate": "2026-09-15",
       "endDate": "2026-09-15",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3981-26",
@@ -901,7 +901,7 @@
       "phase": "Paving",
       "startDate": "2026-10-02",
       "endDate": "2026-10-02",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3712-26",
@@ -2451,7 +2451,7 @@
       "phase": "Milling",
       "startDate": "2026-10-22",
       "endDate": "2026-10-23",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4332-26",
@@ -3271,7 +3271,7 @@
       "phase": "Paving",
       "startDate": "2026-11-09",
       "endDate": "2026-11-11",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3981-26",
@@ -3281,7 +3281,7 @@
       "phase": "Paving",
       "startDate": "2026-09-28",
       "endDate": "2026-09-28",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3445-25",
@@ -3571,7 +3571,7 @@
       "phase": "Hand",
       "startDate": "2026-10-30",
       "endDate": "2026-10-30",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4280-26",
@@ -3591,7 +3591,7 @@
       "phase": "Paving",
       "startDate": "2026-11-02",
       "endDate": "2026-11-02",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4110-26",
@@ -4071,7 +4071,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-09-10",
       "endDate": "2026-09-11",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3981-26",
@@ -4081,7 +4081,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-09-22",
       "endDate": "2026-09-24",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3981-26",
@@ -4091,7 +4091,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-09-29",
       "endDate": "2026-10-01",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3981-26",
@@ -4101,7 +4101,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-09-14",
       "endDate": "2026-09-14",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3712-26",
@@ -4541,7 +4541,7 @@
       "phase": "Paving",
       "startDate": "2026-10-02",
       "endDate": "2026-10-02",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3981-26",
@@ -4551,7 +4551,7 @@
       "phase": "Paving",
       "startDate": "2026-10-05",
       "endDate": "2026-10-06",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4312-26",
