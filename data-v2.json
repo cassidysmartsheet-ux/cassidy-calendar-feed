@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T17:36:04+00:00",
+  "generatedAt": "2026-11-06T17:41:07+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 457,
   "events": [
@@ -1374,16 +1374,6 @@
       "status": "Scheduled"
     },
     {
-      "jobNumber": "4167-26",
-      "client": "Dartmouthcompany",
-      "city": "Gardner",
-      "crew": "Hand",
-      "phase": "Hand",
-      "startDate": "2026-11-11",
-      "endDate": "2026-11-13",
-      "status": "Scheduled"
-    },
-    {
       "jobNumber": "3850-26",
       "client": "C White Marine",
       "city": "Beverly",
@@ -1422,6 +1412,16 @@
       "startDate": "2026-09-11",
       "endDate": "2026-09-11",
       "status": "Complete"
+    },
+    {
+      "jobNumber": "4280-26",
+      "client": "V12 Investments",
+      "city": "Wilmington",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-13",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4280-26",
@@ -1531,6 +1531,16 @@
       "phase": "Paving",
       "startDate": "2026-11-11",
       "endDate": "2026-11-11",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4317-26",
+      "client": "Equity Industrial Partners Corp",
+      "city": "Rumford",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-12",
       "status": "Scheduled"
     },
     {
@@ -3544,6 +3554,16 @@
       "status": "Complete"
     },
     {
+      "jobNumber": "4167-26",
+      "client": "Dartmouthcompany",
+      "city": "Gardner",
+      "crew": "Paving",
+      "phase": "Hand",
+      "startDate": "2026-11-11",
+      "endDate": "2026-11-13",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "4234-26",
       "client": "Ocean State Job Lot",
       "city": "",
@@ -3551,16 +3571,6 @@
       "phase": "Hand",
       "startDate": "2026-10-30",
       "endDate": "2026-10-30",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "4280-26",
-      "client": "V12 Investments",
-      "city": "Wilmington",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-11-13",
-      "endDate": "2026-11-13",
       "status": "Scheduled"
     },
     {
@@ -3601,16 +3611,6 @@
       "phase": "Paving",
       "startDate": "2026-11-17",
       "endDate": "2026-11-17",
-      "status": "Scheduled"
-    },
-    {
-      "jobNumber": "4317-26",
-      "client": "Equity Industrial Partners Corp",
-      "city": "Rumford",
-      "crew": "Paving",
-      "phase": "Paving",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-05",
       "status": "Scheduled"
     },
     {
