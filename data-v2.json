@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-08T17:06:16+00:00",
+  "generatedAt": "2026-11-08T17:11:19+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 460,
+  "totalRows": 461,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1669,8 +1669,8 @@
       "city": "Framingham",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-11-09",
-      "endDate": "2026-11-09",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-17",
       "status": "Scheduled"
     },
     {
@@ -1701,6 +1701,16 @@
       "phase": "Hand",
       "startDate": "2026-12-04",
       "endDate": "2026-12-04",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4487-26",
+      "client": "Keypoint",
+      "city": "Plymouth",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-16",
       "status": "Scheduled"
     },
     {
