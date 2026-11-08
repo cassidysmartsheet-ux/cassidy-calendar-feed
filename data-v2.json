@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-08T16:41:04+00:00",
+  "generatedAt": "2026-11-08T16:56:09+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 457,
+  "totalRows": 459,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2631,6 +2631,26 @@
       "phase": "Milling",
       "startDate": "2026-12-04",
       "endDate": "2026-12-04",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4449-26",
+      "client": "Nashoba Paving Company",
+      "city": "Worcester",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-11-22",
+      "endDate": "2026-11-22",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4378-26",
+      "client": "Nashoba Paving Company",
+      "city": "Brocton",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-20",
       "status": "Scheduled"
     },
     {
