@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-08T16:56:09+00:00",
+  "generatedAt": "2026-11-08T17:01:12+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 459,
+  "totalRows": 460,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -3701,6 +3701,16 @@
       "phase": "Paving",
       "startDate": "2026-12-04",
       "endDate": "2026-12-04",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4460-26",
+      "client": "Comfort Homes- Lussier Properties",
+      "city": "Dracut",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-22",
+      "endDate": "2026-11-22",
       "status": "Scheduled"
     },
     {
