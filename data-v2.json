@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T18:35:46+00:00",
+  "generatedAt": "2026-11-13T18:40:49+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 465,
   "events": [
@@ -1679,8 +1679,8 @@
       "city": "Framingham",
       "crew": "Hand",
       "phase": "Hand",
-      "startDate": "2026-11-17",
-      "endDate": "2026-11-17",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-19",
       "status": "Scheduled"
     },
     {
