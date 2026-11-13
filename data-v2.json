@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-13T18:05:33+00:00",
+  "generatedAt": "2026-11-13T18:10:36+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 463,
+  "totalRows": 465,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2669,7 +2669,17 @@
       "city": "Brocton",
       "crew": "Milling",
       "phase": "Milling",
-      "startDate": "2026-11-19",
+      "startDate": "2026-11-24",
+      "endDate": "2026-11-25",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3002-25",
+      "client": "Alexadria Real estate",
+      "city": "Waltham",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-11-20",
       "endDate": "2026-11-20",
       "status": "Scheduled"
     },
@@ -3737,6 +3747,16 @@
       "jobNumber": "4460-26",
       "client": "Comfort Homes- Lussier Properties",
       "city": "Dracut",
+      "crew": "Paving",
+      "phase": "Paving",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-23",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3002-25",
+      "client": "Alexadria Real estate",
+      "city": "Waltham",
       "crew": "Paving",
       "phase": "Paving",
       "startDate": "2026-11-23",
