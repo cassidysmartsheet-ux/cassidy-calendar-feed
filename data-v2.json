@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-14T16:00:59+00:00",
+  "generatedAt": "2026-11-14T16:06:02+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 465,
+  "totalRows": 466,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2571,7 +2571,7 @@
       "phase": "Milling",
       "startDate": "2026-11-05",
       "endDate": "2026-11-06",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4210-26",
@@ -3711,7 +3711,7 @@
       "phase": "Paving",
       "startDate": "2026-11-09",
       "endDate": "2026-11-10",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4301-26",
@@ -3739,6 +3739,16 @@
       "city": "Burlington",
       "crew": "Paving",
       "phase": "Paving",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4486-26",
+      "client": "Jc Grounds",
+      "city": "Burlington",
+      "crew": "Paving",
+      "phase": "Hand",
       "startDate": "2026-11-14",
       "endDate": "2026-11-14",
       "status": "Scheduled"
