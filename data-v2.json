@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-17T01:03:26+00:00",
+  "generatedAt": "2026-11-17T01:08:28+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 466,
+  "totalRows": 465,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1401,7 +1401,7 @@
       "phase": "Paving",
       "startDate": "2026-11-16",
       "endDate": "2026-11-16",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "2845-25",
@@ -1431,7 +1431,7 @@
       "phase": "Paving",
       "startDate": "2026-11-13",
       "endDate": "2026-11-13",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4280-26",
@@ -1441,7 +1441,7 @@
       "phase": "Paving",
       "startDate": "2026-11-14",
       "endDate": "2026-11-14",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4218-26",
@@ -1672,16 +1672,6 @@
       "startDate": "2026-11-10",
       "endDate": "2026-11-10",
       "status": "Complete"
-    },
-    {
-      "jobNumber": "4462-26",
-      "client": "Metro West Hospital",
-      "city": "Framingham",
-      "crew": "Hand",
-      "phase": "Hand",
-      "startDate": "2026-11-19",
-      "endDate": "2026-11-19",
-      "status": "Scheduled"
     },
     {
       "jobNumber": "3603-26",
@@ -3631,7 +3621,7 @@
       "phase": "Hand",
       "startDate": "2026-11-11",
       "endDate": "2026-11-13",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4234-26",
@@ -3651,7 +3641,7 @@
       "phase": "Paving",
       "startDate": "2026-11-16",
       "endDate": "2026-11-16",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4234-26",
@@ -4481,7 +4471,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-11-05",
       "endDate": "2026-11-06",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4224-26",
@@ -4511,7 +4501,7 @@
       "phase": "Reclaim/Grading",
       "startDate": "2026-11-10",
       "endDate": "2026-11-12",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4110-26",
