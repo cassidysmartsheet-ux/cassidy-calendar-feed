@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-19T14:54:51+00:00",
+  "generatedAt": "2026-11-19T15:04:56+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 468,
+  "totalRows": 469,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2702,6 +2702,16 @@
       "startDate": "2026-11-20",
       "endDate": "2026-11-20",
       "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4455-26",
+      "client": "Keypoint Partners",
+      "city": "Framingham",
+      "crew": "Milling",
+      "phase": "Milling",
+      "startDate": "2026-12-02",
+      "endDate": "2026-12-02",
+      "status": ""
     },
     {
       "jobNumber": "4357-26",
