@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-19T14:29:39+00:00",
+  "generatedAt": "2026-11-19T14:34:43+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 467,
+  "totalRows": 468,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -2601,6 +2601,16 @@
       "phase": "Milling",
       "startDate": "2026-11-12",
       "endDate": "2026-11-13",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "3749-26",
+      "client": "JJ Phelan",
+      "city": "Boston",
+      "crew": "Milling",
+      "phase": "Paving",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-23",
       "status": "Scheduled"
     },
     {
