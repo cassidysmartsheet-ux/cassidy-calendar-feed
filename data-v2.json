@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-19T15:09:59+00:00",
+  "generatedAt": "2026-11-19T15:25:31+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 470,
+  "totalRows": 472,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1741,6 +1741,26 @@
       "phase": "Hand",
       "startDate": "2026-11-23",
       "endDate": "2026-11-24",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4459-26",
+      "client": "WES Construction Corp.",
+      "city": "Boston",
+      "crew": "Hand",
+      "phase": "Milling",
+      "startDate": "2026-12-03",
+      "endDate": "2026-12-03",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4459-26",
+      "client": "WES Construction Corp.",
+      "city": "Boston",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-05",
       "status": "Scheduled"
     },
     {
