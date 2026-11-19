@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-19T15:04:56+00:00",
+  "generatedAt": "2026-11-19T15:09:59+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 469,
+  "totalRows": 470,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1724,6 +1724,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4455-26",
+      "client": "Keypoint Partners",
+      "city": "Framingham",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-12-03",
+      "endDate": "2026-12-03",
+      "status": "Scheduled"
+    },
+    {
       "jobNumber": "FJ-0603-26",
       "client": "Massport",
       "city": "Boston",
@@ -2709,9 +2719,9 @@
       "city": "Framingham",
       "crew": "Milling",
       "phase": "Milling",
-      "startDate": "2026-12-02",
-      "endDate": "2026-12-02",
-      "status": ""
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-01",
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4357-26",
