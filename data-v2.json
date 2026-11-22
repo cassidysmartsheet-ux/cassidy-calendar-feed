@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-22T23:21:58+00:00",
+  "generatedAt": "2026-11-22T23:27:01+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 475,
+  "totalRows": 476,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1764,6 +1764,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4511-26",
+      "client": "Ks Partners",
+      "city": "Danvers",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-19",
+      "status": "Complete"
+    },
+    {
       "jobNumber": "4313-26",
       "client": "Hub",
       "city": "Wilmington",
@@ -1771,7 +1781,7 @@
       "phase": "Hand",
       "startDate": "2026-12-09",
       "endDate": "2026-12-09",
-      "status": ""
+      "status": "Scheduled"
     },
     {
       "jobNumber": "4459-26",
