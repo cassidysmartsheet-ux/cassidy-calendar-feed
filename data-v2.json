@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-22T23:11:54+00:00",
+  "generatedAt": "2026-11-22T23:21:58+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 473,
+  "totalRows": 475,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1764,6 +1764,16 @@
       "status": "Scheduled"
     },
     {
+      "jobNumber": "4313-26",
+      "client": "Hub",
+      "city": "Wilmington",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-12-09",
+      "endDate": "2026-12-09",
+      "status": ""
+    },
+    {
       "jobNumber": "4459-26",
       "client": "WES Construction Corp.",
       "city": "Boston",
@@ -1781,6 +1791,16 @@
       "phase": "Paving",
       "startDate": "2026-12-04",
       "endDate": "2026-12-04",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "2594-25",
+      "client": "Nordblom",
+      "city": "Dedham",
+      "crew": "Hand",
+      "phase": "Paving",
+      "startDate": "2026-12-08",
+      "endDate": "2026-12-08",
       "status": "Scheduled"
     },
     {
