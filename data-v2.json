@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-22T23:06:51+00:00",
+  "generatedAt": "2026-11-22T23:11:54+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 472,
+  "totalRows": 473,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1751,6 +1751,16 @@
       "phase": "Hand",
       "startDate": "2026-11-23",
       "endDate": "2026-11-24",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "4517-26",
+      "client": "Kim I",
+      "city": "dennisport",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-12-07",
+      "endDate": "2026-12-07",
       "status": "Scheduled"
     },
     {
