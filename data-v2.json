@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T22:38:19+00:00",
+  "generatedAt": "2026-11-23T22:48:23+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
   "totalRows": 479,
   "events": [
@@ -1491,7 +1491,7 @@
       "phase": "Paving",
       "startDate": "2026-11-17",
       "endDate": "2026-11-17",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4206-26",
@@ -1731,7 +1731,7 @@
       "phase": "Paving",
       "startDate": "2026-11-23",
       "endDate": "2026-11-23",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4455-26",
@@ -2611,7 +2611,7 @@
       "phase": "Milling",
       "startDate": "2026-11-09",
       "endDate": "2026-11-09",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4187-26",
@@ -2811,7 +2811,7 @@
       "phase": "Milling",
       "startDate": "2026-11-20",
       "endDate": "2026-11-20",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "4357-26",
@@ -3801,7 +3801,7 @@
       "phase": "Paving",
       "startDate": "2026-11-18",
       "endDate": "2026-11-18",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3482-25",
@@ -4671,7 +4671,7 @@
       "phase": "Pulverizing",
       "startDate": "2026-11-13",
       "endDate": "2026-11-13",
-      "status": "Scheduled"
+      "status": "Complete"
     },
     {
       "jobNumber": "3482-25",
