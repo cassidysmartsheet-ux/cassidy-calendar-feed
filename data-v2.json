@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-22T23:50:32+00:00",
+  "generatedAt": "2026-11-23T00:05:39+00:00",
   "source": "Smartsheet Operations Calendar Report (id 3854855551537028)",
-  "totalRows": 478,
+  "totalRows": 479,
   "events": [
     {
       "jobNumber": "RO-001",
@@ -1831,6 +1831,16 @@
       "phase": "Hand",
       "startDate": "2026-12-02",
       "endDate": "2026-12-02",
+      "status": "Scheduled"
+    },
+    {
+      "jobNumber": "FJ-0612-26",
+      "client": "Christmas",
+      "city": "Haverhill",
+      "crew": "Hand",
+      "phase": "Hand",
+      "startDate": "2026-12-24",
+      "endDate": "2026-12-25",
       "status": "Scheduled"
     },
     {
